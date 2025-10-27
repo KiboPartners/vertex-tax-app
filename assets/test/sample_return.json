@@ -1,0 +1,308 @@
+{
+    "auditInfo": {},
+    "availableActions": [
+        "Create"
+    ],
+    "changeMessages": [],
+    "channelCode": "RTL",
+    "contact": {
+        "address": {
+            "address1": "350 E MAIN ST",
+            "address2": "",
+            "address3": "",
+            "address4": "",
+            "addressType": "Residential",
+            "cityOrTown": "ALLEN",
+            "countryCode": "US",
+            "isValidated": true,
+            "postalOrZipCode": "75002",
+            "stateOrProvince": "TX"
+        },
+        "companyOrOrganization": "",
+        "email": "will.spurgin@gmail.com",
+        "firstName": "W",
+        "id": 1005,
+        "lastNameOrSurname": "S",
+        "middleNameOrInitial": "",
+        "phoneNumbers": {
+            "home": "2143445444",
+            "mobile": "",
+            "work": ""
+        }
+    },
+    "currencyCode": "USD",
+    "customerAccountId": 1005,
+    "customerInteractionType": "Unknown",
+    "id": null,
+    "items": [
+        {
+            "bundledProducts": [],
+            "excludeProductExtras": false,
+            "id": null,
+            "notes": [],
+            "orderItemId": "2bb96d2fb3724272a92aa93c01091f3e",
+            "orderItemOptionAttributeFQN": "",
+            "orderLineId": 1,
+            "product": {
+                "allocationExpiration": null,
+                "allocationId": null,
+                "bundledProducts": [],
+                "categories": [
+                    {
+                        "id": 9,
+                        "parent": {
+                            "id": 3,
+                            "parent": null
+                        }
+                    }
+                ],
+                "description": "The Smith IO Snow Goggles a are designed to reduce fogging and optimize the flow of air over the inside of the lens. The double lenses ensure you get a clear view with comfort fit.",
+                "discountsRestricted": false,
+                "discountsRestrictedEndDate": null,
+                "discountsRestrictedStartDate": null,
+                "fulfillmentStatus": "Fulfilled",
+                "fulfillmentTypesSupported": [
+                    "DirectShip",
+                    "InStorePickup"
+                ],
+                "goodsType": "Physical",
+                "imageAlternateText": "Yellow",
+                "imageUrl": "//cdn-sb.mozu.com/25559-39093/cms/39093/files/910a5a28-d26a-4f84-abc2-2e0ef26cd598",
+                "isPackagedStandAlone": false,
+                "isRecurring": null,
+                "isTaxable": true,
+                "measurements": {
+                    "height": {
+                        "unit": "in",
+                        "value": 3.0
+                    },
+                    "length": {
+                        "unit": "in",
+                        "value": 7.0
+                    },
+                    "weight": {
+                        "unit": "lbs",
+                        "value": 1.0
+                    },
+                    "width": {
+                        "unit": "in",
+                        "value": 5.0
+                    }
+                },
+                "mfgPartNumber": null,
+                "name": "Smith IO Snow Goggles!",
+                "options": [
+                    {
+                        "attributeFQN": "tenant~color",
+                        "dataType": null,
+                        "name": "Color",
+                        "shopperEnteredValue": "Red",
+                        "stringValue": "Red",
+                        "value": "Red"
+                    }
+                ],
+                "price": {
+                    "creditValue": null,
+                    "msrp": null,
+                    "price": 54.0,
+                    "priceListCode": null,
+                    "priceListEntryMode": null,
+                    "salePrice": null,
+                    "tenantOverridePrice": null
+                },
+                "productCode": "ACC1",
+                "productReservationId": 14,
+                "productType": "Accessory",
+                "productUsage": "Configurable",
+                "properties": [
+                    {
+                        "attributeFQN": "tenant~availability",
+                        "dataType": "String",
+                        "isMultiValue": false,
+                        "name": "Availability",
+                        "values": [
+                            {
+                                "stringValue": "Usually Ships in 24 Hours",
+                                "value": "24hrs"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~product-crosssell",
+                        "dataType": "String",
+                        "isMultiValue": true,
+                        "name": "Product Cross-Sells",
+                        "values": [
+                            {
+                                "stringValue": "ACC2",
+                                "value": "ACC2"
+                            },
+                            {
+                                "stringValue": "ACC3",
+                                "value": "ACC3"
+                            },
+                            {
+                                "stringValue": "PET3",
+                                "value": "PET3"
+                            },
+                            {
+                                "stringValue": "SKI2",
+                                "value": "SKI2"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~popularity",
+                        "dataType": "Number",
+                        "isMultiValue": true,
+                        "name": "Popularity",
+                        "values": [
+                            {
+                                "stringValue": null,
+                                "value": 4.0
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~rating",
+                        "dataType": "Number",
+                        "isMultiValue": true,
+                        "name": "Rating",
+                        "values": [
+                            {
+                                "stringValue": null,
+                                "value": 3.0
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~product-upsell",
+                        "dataType": "String",
+                        "isMultiValue": true,
+                        "name": "Product Upsells",
+                        "values": [
+                            {
+                                "stringValue": "ACC2",
+                                "value": "ACC2"
+                            },
+                            {
+                                "stringValue": "ACC3",
+                                "value": "ACC3"
+                            },
+                            {
+                                "stringValue": "BCKPCK1",
+                                "value": "BCKPCK1"
+                            },
+                            {
+                                "stringValue": "SKI3",
+                                "value": "SKI3"
+                            },
+                            {
+                                "stringValue": "SKI2",
+                                "value": "SKI2"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~color-filter",
+                        "dataType": "String",
+                        "isMultiValue": true,
+                        "name": "color filter",
+                        "values": [
+                            {
+                                "stringValue": "Green",
+                                "value": "Green"
+                            },
+                            {
+                                "stringValue": "Red",
+                                "value": "Red"
+                            },
+                            {
+                                "stringValue": "Yellow",
+                                "value": "Yellow"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~isrecommended",
+                        "dataType": "String",
+                        "isMultiValue": true,
+                        "name": "isRecommended",
+                        "values": [
+                            {
+                                "stringValue": "Skiier",
+                                "value": "Skiier"
+                            },
+                            {
+                                "stringValue": "Winter",
+                                "value": "Winter"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~video-url",
+                        "dataType": "String",
+                        "isMultiValue": false,
+                        "name": "video-url",
+                        "values": [
+                            {
+                                "stringValue": "https://www.youtube.com/watch?v=iz7wtTO7roQ",
+                                "value": "https://www.youtube.com/watch?v=iz7wtTO7roQ"
+                            }
+                        ]
+                    }
+                ],
+                "upc": null,
+                "variationProductCode": "ACC1-2"
+            },
+            "productLossAmount": null,
+            "productLossTaxAmount": null,
+            "quantityReceived": 0,
+            "quantityReplaced": null,
+            "quantityRestockable": 0,
+            "quantityShipped": 0,
+            "reasons": [
+                {
+                    "quantity": 2,
+                    "reason": "Different Expectations"
+                }
+            ],
+            "receiveStatus": "Waiting",
+            "refundAmount": null,
+            "refundStatus": "NotRefunded",
+            "replaceStatus": "NotRequested",
+            "returnNotRequired": false,
+            "returnType": "Refund",
+            "shippingLossAmount": null,
+            "shippingLossTaxAmount": null,
+            "totalWithWeightedShippingAndHandling": 133.15,
+            "totalWithoutWeightedShippingAndHandling": 116.91
+        }
+    ],
+    "locationCode": "WRH001",
+    "lossTotal": null,
+    "notes": null,
+    "originalOrderId": "0c735bab2fffda19a0708bfb000063d7",
+    "originalOrderNumber": 28,
+    "packages": [],
+    "payments": [],
+    "productLossTaxTotal": null,
+    "productLossTotal": null,
+    "receiveStatus": "Waiting",
+    "refundAmount": 0.0,
+    "refundStatus": "NotRefunded",
+    "replaceStatus": "NotRequested",
+    "returnNumber": null,
+    "returnOrderId": null,
+    "returnType": "Replace",
+    "rmaDeadline": null,
+    "shippingLossTaxTotal": null,
+    "shippingLossTotal": null,
+    "siteId": 0,
+    "status": "Null",
+    "tenantId": 0,
+    "userId": "d7b50ebab5944a33b25dfb59fbc6f3d6",
+    "visitId": null,
+    "webSessionId": null
+}
+

@@ -1,0 +1,192 @@
+{
+    "Attributes": [],
+    "CurrencyCode": "USD",
+    "Data": null,
+    "HandlingDiscount": null,
+    "HandlingDiscounts": null,
+    "HandlingFee": 0.0,
+    "LineItems": [
+        {
+            "Data": null,
+            "DestinationAddress": null,
+            "DiscountTotal": 0.0,
+            "DiscountedTotal": 200.0,
+            "FeeTotal": 0.0,
+            "HandlingAmount": null,
+            "Id": "c878757897aa40308617a92d01554a3e",
+            "IsTaxable": true,
+            "LineItemPrice": 180.0,
+            "OriginAddress": null,
+            "ProductCode": "1006",
+            "ProductDiscount": null,
+            "ProductDiscounts": [],
+            "ProductName": "Parsons Trench-89 Pump",
+            "ProductProperties": [
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Availability",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~availability",
+                    "IsHidden": null,
+                    "IsMultiValue": false,
+                    "Values": [
+                        {
+                            "StringValue": "Usually Ships in 24 Hours",
+                            "Value": "24hrs"
+                        }
+                    ]
+                }
+            ],
+            "Quantity": 4,
+            "Reason": null,
+            "ShippingAmount": 60.0,
+            "ShippingDiscount": null,
+            "ShippingDiscounts": [],
+            "VariantProductCode": null
+        },
+        {
+            "Data": null,
+            "DestinationAddress": null,
+            "DiscountTotal": 0.0,
+            "DiscountedTotal": 60.0,
+            "FeeTotal": 0.0,
+            "HandlingAmount": null,
+            "Id": "25ada5237ba844678cf0a92d0155ec11",
+            "IsTaxable": true,
+            "LineItemPrice": 54.0,
+            "OriginAddress": null,
+            "ProductCode": "1005",
+            "ProductDiscount": null,
+            "ProductDiscounts": [],
+            "ProductName": "Piona Kailas Patent Pump",
+            "ProductProperties": [
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Availability",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~availability",
+                    "IsHidden": null,
+                    "IsMultiValue": false,
+                    "Values": [
+                        {
+                            "StringValue": "Usually Ships in 24 Hours",
+                            "Value": "24hrs"
+                        }
+                    ]
+                }
+            ],
+            "Quantity": 1,
+            "Reason": null,
+            "ShippingAmount": 15.0,
+            "ShippingDiscount": null,
+            "ShippingDiscounts": [],
+            "VariantProductCode": null
+        }
+    ],
+    "OrderDate": "2018-07-30T20:43:09.821Z",
+    "OrderDiscount": {
+        "CouponCode": "CREDERA",
+        "CouponSetId": null,
+        "Discount": {
+            "Amount": 0.0,
+            "AmountType": null,
+            "Condition": null,
+            "DiscountId": 0,
+            "DoesNotApplyToMultiShipToOrders": null,
+            "DoesNotApplyToProductsWithSalePrice": false,
+            "ExpirationDate": "2018-08-24T13:56:00.000Z",
+            "FriendlyDescription": null,
+            "IncludedPriceLists": null,
+            "MaxDiscountValuePerRedemption": null,
+            "MaxRedemptions": null,
+            "MaximumDiscountValuePerOrder": null,
+            "MaximumRedemptionsPerOrder": null,
+            "MaximumUsesPerUser": null,
+            "Name": "10% OFF",
+            "Redemptions": 0,
+            "RequiresAuthenticatedUser": false,
+            "Scope": null,
+            "StackingLayer": 0,
+            "Target": null,
+            "Type": null
+        },
+        "Impact": 26.0
+    },
+    "OrderDiscounts": [
+        {
+            "CouponCode": "CREDERA",
+            "CouponSetId": null,
+            "Discount": {
+                "Amount": 0.0,
+                "AmountType": null,
+                "Condition": null,
+                "DiscountId": 0,
+                "DoesNotApplyToMultiShipToOrders": null,
+                "DoesNotApplyToProductsWithSalePrice": false,
+                "ExpirationDate": "2018-08-24T13:56:00.000Z",
+                "FriendlyDescription": null,
+                "IncludedPriceLists": null,
+                "MaxDiscountValuePerRedemption": null,
+                "MaxRedemptions": null,
+                "MaximumDiscountValuePerOrder": null,
+                "MaximumRedemptionsPerOrder": null,
+                "MaximumUsesPerUser": null,
+                "Name": "10% OFF",
+                "Redemptions": 0,
+                "RequiresAuthenticatedUser": false,
+                "Scope": null,
+                "StackingLayer": 0,
+                "Target": null,
+                "Type": null
+            },
+            "Impact": 26.0
+        }
+    ],
+    "OrderId": "0c5fd61325028b15f8ddd67300006323",
+    "OrderNumber": 58,
+    "OriginalDocumentCode": "58",
+    "OriginalOrderDate": "2018-07-30T20:43:09.821Z",
+    "ShippingAmount": 75.0,
+    "ShippingDiscount": null,
+    "ShippingDiscounts": null,
+    "ShippingMethodCode": "cf36feeccb4540aaa569dca206f25c6d",
+    "ShippingMethodName": "Flat Rate",
+    "TaxContext": {
+        "CustomerId": "1003",
+        "DestinationAddress": {
+            "Address1": "15303 Dallas Pkwy",
+            "Address2": "#300",
+            "Address3": "",
+            "Address4": "",
+            "AddressType": "Residential",
+            "CityOrTown": "Addison",
+            "CountryCode": "US",
+            "IsValidated": false,
+            "PostalOrZipCode": "75001",
+            "StateOrProvince": "TX"
+        },
+        "OriginAddress": {
+            "Address1": "1835 Kramer Lane",
+            "Address2": "#100",
+            "Address3": null,
+            "Address4": null,
+            "AddressType": null,
+            "CityOrTown": "Austin",
+            "CountryCode": "US",
+            "IsValidated": false,
+            "PostalOrZipCode": "78758",
+            "StateOrProvince": "TX"
+        },
+        "TaxContextId": "58",
+        "TaxExemptId": null
+    },
+    "TaxRequestType": "Order"
+}

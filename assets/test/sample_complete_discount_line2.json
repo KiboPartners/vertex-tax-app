@@ -1,0 +1,1356 @@
+{
+    "acceptedDate": "2018-08-03T14:25:58.631Z",
+    "acceptsMarketing": null,
+    "adjustment": null,
+    "amountAvailableForRefund": 215.58,
+    "amountRefunded": 0.0,
+    "amountRemainingForPayment": 0.0,
+    "attributes": [],
+    "auditInfo": {
+        "createBy": "7b188a6f5d7745fbb316258ec796681b",
+        "createDate": "2018-08-03T14:23:44.022Z",
+        "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+        "updateDate": "2018-08-03T14:26:10.381Z"
+    },
+    "availableActions": null,
+    "billingInfo": {
+        "auditInfo": {
+            "createBy": "7b188a6f5d7745fbb316258ec796681b",
+            "createDate": "2018-08-03T14:23:48.363Z",
+            "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+            "updateDate": "2018-08-03T14:23:48.363Z"
+        },
+        "billingContact": {
+            "address": {
+                "address1": "15303 Dallas Pkwy",
+                "address2": "#300",
+                "address3": "",
+                "address4": "",
+                "addressType": "Residential",
+                "cityOrTown": "Addison",
+                "countryCode": "US",
+                "isValidated": false,
+                "postalOrZipCode": "75001",
+                "stateOrProvince": "TX"
+            },
+            "companyOrOrganization": "Credera",
+            "email": "morgan.monzingo@credera.com",
+            "firstName": "Morgan",
+            "id": 1002,
+            "lastNameOrSurname": "Monzingo",
+            "middleNameOrInitial": "",
+            "phoneNumbers": {
+                "home": "512-912-6027",
+                "mobile": "",
+                "work": ""
+            }
+        },
+        "card": null,
+        "check": null,
+        "customCreditType": null,
+        "data": null,
+        "externalTransactionId": null,
+        "isSameBillingShippingAddress": false,
+        "paymentType": null,
+        "paymentWorkflow": null,
+        "purchaseOrder": null,
+        "storeCreditCode": null,
+        "storeCreditType": null
+    },
+    "cancelledDate": null,
+    "changeMessages": [
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "a4b23c45539e452ab0a983c16f4f3ae3",
+            "createDate": "2018-08-03T14:23:43.771Z",
+            "id": "1025fe46b4a2472ab6a9a93100ed3afc",
+            "identifier": "0c64c36f2fffda2ac841ef3e00006323",
+            "message": "Workflow action succeeded.",
+            "metadata": [
+                {
+                    "newValue": "Pending",
+                    "oldValue": "Null"
+                }
+            ],
+            "newValue": "Pending",
+            "oldValue": "Null",
+            "subject": "CreateOrder",
+            "subjectType": "StateChange.WorkflowAction",
+            "success": true,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Applied"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "9890aecbd4cb434ea7303770e937e6d9",
+            "createDate": "2018-08-03T14:23:48.378Z",
+            "id": "c0f8487a9fd44f62b701a93100ed4063",
+            "identifier": "0c64c36f2fffda2ac841ef3e00006323",
+            "message": "Fulfillment Info Updated",
+            "metadata": [
+                {
+                    "updatedFulfillment": {
+                        "AuditInfo": {
+                            "CreateBy": "7b188a6f5d7745fbb316258ec796681b",
+                            "CreateDate": "2018-08-03T14:23:48.378Z",
+                            "UpdateBy": "7b188a6f5d7745fbb316258ec796681b",
+                            "UpdateDate": "2018-08-03T14:23:48.378Z"
+                        },
+                        "Data": null,
+                        "FulfillmentContact": {
+                            "Address": {
+                                "Address1": "15303 Dallas Pkwy",
+                                "Address2": "#300",
+                                "Address3": "",
+                                "Address4": "",
+                                "AddressType": "Residential",
+                                "CityOrTown": "Addison",
+                                "CountryCode": "US",
+                                "IsValidated": false,
+                                "PostalOrZipCode": "75001",
+                                "StateOrProvince": "TX"
+                            },
+                            "CompanyOrOrganization": "Credera",
+                            "Email": "morgan.monzingo@credera.com",
+                            "FirstName": "Morgan",
+                            "Id": 1002,
+                            "LastNameOrSurname": "Monzingo",
+                            "MiddleNameOrInitial": "",
+                            "PhoneNumbers": {
+                                "Home": "512-912-6027",
+                                "Mobile": "",
+                                "Work": ""
+                            }
+                        },
+                        "IsDestinationCommercial": null,
+                        "ShippingMethodCode": null,
+                        "ShippingMethodName": null
+                    }
+                }
+            ],
+            "newValue": null,
+            "oldValue": null,
+            "subject": "Fulfillment Info Updated",
+            "subjectType": "Order",
+            "success": null,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Updated"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "21c58bb5226045adb48055a1b6b8fae0",
+            "createDate": "2018-08-03T14:24:03.905Z",
+            "id": "366bdab4089849649aa0a93100ed5295",
+            "identifier": "de3998375cbb48328000a93100ed5282",
+            "message": "Product Reid Mira Pump (Code: 1011) was added.",
+            "metadata": [
+                {
+                    "productCode": "1011",
+                    "productName": "Reid Mira Pump",
+                    "quantity": 1
+                }
+            ],
+            "newValue": null,
+            "oldValue": null,
+            "subject": "Item Added",
+            "subjectType": "OrderItem",
+            "success": null,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Added"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "1437cbca27dd44c5820f9fa464cb6e7f",
+            "createDate": "2018-08-03T14:24:13.276Z",
+            "id": "5a00f7f103a54459887fa93100ed5d90",
+            "identifier": "5ec7e9c6a5be4d498c2da93100ed5d86",
+            "message": "Product Leather Driving Cap (Code: acc-1001) was added.",
+            "metadata": [
+                {
+                    "productCode": "acc-1001",
+                    "productName": "Leather Driving Cap",
+                    "quantity": 1
+                }
+            ],
+            "newValue": null,
+            "oldValue": null,
+            "subject": "Item Added",
+            "subjectType": "OrderItem",
+            "success": null,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Added"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "4dee624760de470480ebbc03b682c288",
+            "createDate": "2018-08-03T14:24:28.147Z",
+            "id": "c87dac5832db4e46b652a93100ed6efd",
+            "identifier": "4654f4f1317d46f5bbf1a93100ed6eea",
+            "message": "Product Parsons Trench-89 Pump (Code: 1006) was added.",
+            "metadata": [
+                {
+                    "productCode": "1006",
+                    "productName": "Parsons Trench-89 Pump",
+                    "quantity": 1
+                }
+            ],
+            "newValue": null,
+            "oldValue": null,
+            "subject": "Item Added",
+            "subjectType": "OrderItem",
+            "success": null,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Added"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "ce91dc928cb74808b31990aa3bae9c97",
+            "createDate": "2018-08-03T14:24:33.662Z",
+            "id": "3286cfe7bac34b7a8438a93100ed7574",
+            "identifier": "de3998375cbb48328000a93100ed5282",
+            "message": "Product Reid Mira Pump (Code: 1011) was removed.",
+            "metadata": [
+                {
+                    "productCode": "1011",
+                    "productName": "Reid Mira Pump",
+                    "quantity": 1
+                }
+            ],
+            "newValue": null,
+            "oldValue": null,
+            "subject": "Item Removed",
+            "subjectType": "OrderItem",
+            "success": null,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Removed"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "8d2f1744d0a341928567c674bfece93e",
+            "createDate": "2018-08-03T14:25:10.053Z",
+            "id": "beeb8badc740477eb3eda93100eda019",
+            "identifier": "bdebfd0aed7541708982a93100eda010",
+            "message": "Product Meredith Angela Miranda Pump (Code: 1014) was added.",
+            "metadata": [
+                {
+                    "productCode": "1014",
+                    "productName": "Meredith Angela Miranda Pump",
+                    "quantity": 1
+                }
+            ],
+            "newValue": null,
+            "oldValue": null,
+            "subject": "Item Added",
+            "subjectType": "OrderItem",
+            "success": null,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Added"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "47f4c7056d8a43b6983efe8bf3259250",
+            "createDate": "2018-08-03T14:25:22.014Z",
+            "id": "eff1a589cadf4aca806ba93100edae1e",
+            "identifier": "0c64c36f2fffda2ac841ef3e00006323",
+            "message": "Fulfillment Info Updated",
+            "metadata": [
+                {
+                    "originalFulfillment": {
+                        "AuditInfo": {
+                            "CreateBy": "7b188a6f5d7745fbb316258ec796681b",
+                            "CreateDate": "2018-08-03T14:23:48.378Z",
+                            "UpdateBy": "7b188a6f5d7745fbb316258ec796681b",
+                            "UpdateDate": "2018-08-03T14:23:48.378Z"
+                        },
+                        "Data": null,
+                        "FulfillmentContact": {
+                            "Address": {
+                                "Address1": "15303 Dallas Pkwy",
+                                "Address2": "#300",
+                                "Address3": "",
+                                "Address4": "",
+                                "AddressType": "Residential",
+                                "CityOrTown": "Addison",
+                                "CountryCode": "US",
+                                "IsValidated": false,
+                                "PostalOrZipCode": "75001",
+                                "StateOrProvince": "TX"
+                            },
+                            "CompanyOrOrganization": "Credera",
+                            "Email": "morgan.monzingo@credera.com",
+                            "FirstName": "Morgan",
+                            "Id": 1002,
+                            "LastNameOrSurname": "Monzingo",
+                            "MiddleNameOrInitial": "",
+                            "PhoneNumbers": {
+                                "Home": "512-912-6027",
+                                "Mobile": "",
+                                "Work": ""
+                            }
+                        },
+                        "IsDestinationCommercial": null,
+                        "ShippingMethodCode": null,
+                        "ShippingMethodName": null
+                    },
+                    "updatedFulfillment": {
+                        "AuditInfo": {
+                            "CreateBy": "7b188a6f5d7745fbb316258ec796681b",
+                            "CreateDate": "2018-08-03T14:23:48.378Z",
+                            "UpdateBy": "7b188a6f5d7745fbb316258ec796681b",
+                            "UpdateDate": "2018-08-03T14:25:22.014Z"
+                        },
+                        "Data": null,
+                        "FulfillmentContact": {
+                            "Address": {
+                                "Address1": "15303 Dallas Pkwy",
+                                "Address2": "#300",
+                                "Address3": "",
+                                "Address4": "",
+                                "AddressType": "Residential",
+                                "CityOrTown": "Addison",
+                                "CountryCode": "US",
+                                "IsValidated": false,
+                                "PostalOrZipCode": "75001",
+                                "StateOrProvince": "TX"
+                            },
+                            "CompanyOrOrganization": "Credera",
+                            "Email": "morgan.monzingo@credera.com",
+                            "FirstName": "Morgan",
+                            "Id": 1002,
+                            "LastNameOrSurname": "Monzingo",
+                            "MiddleNameOrInitial": "",
+                            "PhoneNumbers": {
+                                "Home": "512-912-6027",
+                                "Mobile": "",
+                                "Work": ""
+                            }
+                        },
+                        "IsDestinationCommercial": null,
+                        "ShippingMethodCode": "cf36feeccb4540aaa569dca206f25c6d",
+                        "ShippingMethodName": "Flat Rate"
+                    }
+                }
+            ],
+            "newValue": null,
+            "oldValue": null,
+            "subject": "Fulfillment Info Updated",
+            "subjectType": "Order",
+            "success": null,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Updated"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "b29693417d71464fa16610a396f608b1",
+            "createDate": "2018-08-03T14:25:57.272Z",
+            "id": "13fad535b3a542f9b500a93100edd76f",
+            "identifier": "0c64c36f2fffda2ac841ef3e00006323",
+            "message": "Workflow action succeeded.",
+            "metadata": [
+                {
+                    "newValue": "Submitted",
+                    "oldValue": "Pending"
+                }
+            ],
+            "newValue": "Submitted",
+            "oldValue": "Pending",
+            "subject": "SubmitOrder",
+            "subjectType": "StateChange.WorkflowAction",
+            "success": true,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Applied"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "b29693417d71464fa16610a396f608b1",
+            "createDate": "2018-08-03T14:25:57.801Z",
+            "id": "2fa703073f5243efa753a93100edd80d",
+            "identifier": "0c64c36f2fffda2ac841ef3e00006323",
+            "message": "Workflow action succeeded.",
+            "metadata": [
+                {
+                    "newValue": "Validated",
+                    "oldValue": "Submitted"
+                }
+            ],
+            "newValue": "Validated",
+            "oldValue": "Submitted",
+            "subject": "ValidateOrder",
+            "subjectType": "StateChange.WorkflowAction",
+            "success": true,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Applied"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "b29693417d71464fa16610a396f608b1",
+            "createDate": "2018-08-03T14:25:58.631Z",
+            "id": "a4029b43dd8847438cc9a93100edd906",
+            "identifier": "0c64c36f2fffda2ac841ef3e00006323",
+            "message": "Workflow action succeeded.",
+            "metadata": [
+                {
+                    "newValue": "Accepted",
+                    "oldValue": "Validated"
+                }
+            ],
+            "newValue": "Accepted",
+            "oldValue": "Validated",
+            "subject": "AcceptOrder",
+            "subjectType": "StateChange.WorkflowAction",
+            "success": true,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Applied"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "fc1f2793f96f454fb9ea2cd82802164f",
+            "createDate": "2018-08-03T14:26:06.273Z",
+            "id": "f6f2f3c2f2d242758f9da93100ede1fb",
+            "identifier": "0c64c36f2fffda2ac841ef3e00006323",
+            "message": "Package with Code: Package-1, Id: a6b6576d12a4403fb842a93100ede1f7 was added.",
+            "metadata": null,
+            "newValue": null,
+            "oldValue": null,
+            "subject": "Package Added",
+            "subjectType": "Order",
+            "success": null,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Added"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "b2ef7cedb0cc4cc1a3bdfad53e5d6bd5",
+            "createDate": "2018-08-03T14:26:09.926Z",
+            "id": "388a61da71824fe0b5dea93100ede643",
+            "identifier": "0c64c36f2fffda2ac841ef3e00006323",
+            "message": "Fulfillment status updated.",
+            "metadata": [
+                {
+                    "newValue": "Fulfilled",
+                    "oldValue": "NotFulfilled"
+                }
+            ],
+            "newValue": "Fulfilled",
+            "oldValue": "NotFulfilled",
+            "subject": "Order Fulfillment Status",
+            "subjectType": "StateChange.Order",
+            "success": null,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Applied"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "b2ef7cedb0cc4cc1a3bdfad53e5d6bd5",
+            "createDate": "2018-08-03T14:26:10.146Z",
+            "id": "19971854a983451e82dca93100ede685",
+            "identifier": "0c64c36f2fffda2ac841ef3e00006323",
+            "message": "Workflow action succeeded.",
+            "metadata": [
+                {
+                    "newValue": "Processing",
+                    "oldValue": "Accepted"
+                }
+            ],
+            "newValue": "Processing",
+            "oldValue": "Accepted",
+            "subject": "SetOrderAsProcessing",
+            "subjectType": "StateChange.WorkflowAction",
+            "success": true,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Applied"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "86fba34818c0446abe991ee9fd2539e4",
+            "createDate": "2018-08-03T14:26:16.005Z",
+            "id": "fa6ae5929e1844b9bc55a93100eded63",
+            "identifier": "0c64c36f2fffda2ac841ef3e00006323",
+            "message": "Payment status updated.",
+            "metadata": [
+                {
+                    "newValue": "Paid",
+                    "oldValue": "Pending"
+                }
+            ],
+            "newValue": "Paid",
+            "oldValue": "Pending",
+            "subject": "PaymentStatus",
+            "subjectType": "StateChange.Order",
+            "success": null,
+            "userFirstName": "Morgan",
+            "userId": "7b188a6f5d7745fbb316258ec796681b",
+            "userLastName": "Monzingo",
+            "userScopeType": "Tenant",
+            "verb": "Applied"
+        }
+    ],
+    "channelCode": "ONL",
+    "closedDate": null,
+    "couponCodes": [
+        "97A5087F"
+    ],
+    "currencyCode": "USD",
+    "customerAccountId": 1003,
+    "customerInteractionType": "Unknown",
+    "customerTaxId": null,
+    "data": null,
+    "digitalPackages": [],
+    "discountThresholdMessages": [],
+    "discountTotal": 6.0,
+    "discountedSubtotal": 183.0,
+    "discountedTotal": 183.0,
+    "dutyAmount": null,
+    "dutyTotal": null,
+    "email": "morgan.monzingo@credera.com",
+    "expirationDate": null,
+    "extendedProperties": null,
+    "externalId": null,
+    "feeTotal": 0.0,
+    "fulfillmentInfo": {
+        "auditInfo": {
+            "createBy": "7b188a6f5d7745fbb316258ec796681b",
+            "createDate": "2018-08-03T14:23:48.378Z",
+            "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+            "updateDate": "2018-08-03T14:25:22.014Z"
+        },
+        "data": null,
+        "fulfillmentContact": {
+            "address": {
+                "address1": "15303 Dallas Pkwy",
+                "address2": "#300",
+                "address3": "",
+                "address4": "",
+                "addressType": "Residential",
+                "cityOrTown": "Addison",
+                "countryCode": "US",
+                "isValidated": false,
+                "postalOrZipCode": "75001",
+                "stateOrProvince": "TX"
+            },
+            "companyOrOrganization": "Credera",
+            "email": "morgan.monzingo@credera.com",
+            "firstName": "Morgan",
+            "id": 1002,
+            "lastNameOrSurname": "Monzingo",
+            "middleNameOrInitial": "",
+            "phoneNumbers": {
+                "home": "512-912-6027",
+                "mobile": "",
+                "work": ""
+            }
+        },
+        "isDestinationCommercial": null,
+        "shippingMethodCode": "cf36feeccb4540aaa569dca206f25c6d",
+        "shippingMethodName": "Flat Rate"
+    },
+    "fulfillmentStatus": "Fulfilled",
+    "handlingAdjustment": null,
+    "handlingAmount": null,
+    "handlingDiscounts": [],
+    "handlingSubTotal": null,
+    "handlingTaxTotal": 0.0,
+    "handlingTotal": 0.0,
+    "hasDraft": false,
+    "id": "0c64c36f2fffda2ac841ef3e00006323",
+    "importDate": null,
+    "invalidCoupons": [],
+    "ipAddress": "50.58.217.226",
+    "isDraft": false,
+    "isEligibleForReturns": true,
+    "isImport": false,
+    "isPartialOrder": false,
+    "isTaxExempt": false,
+    "itemTaxTotal": 16.34,
+    "items": [
+        {
+            "adjustedLineItemSubtotal": 79.0,
+            "auditInfo": {
+                "createBy": "7b188a6f5d7745fbb316258ec796681b",
+                "createDate": "2018-08-03T14:24:13.260Z",
+                "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+                "updateDate": "2018-08-03T14:24:13.260Z"
+            },
+            "autoAddDiscountId": null,
+            "data": null,
+            "destinationId": null,
+            "discountTotal": 0.0,
+            "discountedTotal": 79.0,
+            "dutyAmount": null,
+            "extendedTotal": 79.0,
+            "feeTotal": 0.0,
+            "fulfillmentLocationCode": "homebase",
+            "fulfillmentMethod": "Ship",
+            "handlingAmount": null,
+            "id": "5ec7e9c6a5be4d498c2da93100ed5d86",
+            "isRecurring": null,
+            "isTaxable": null,
+            "itemTaxTotal": 6.52,
+            "lineId": 2,
+            "localeCode": null,
+            "originalCartItemId": null,
+            "product": {
+                "allocationExpiration": null,
+                "allocationId": null,
+                "bundledProducts": [],
+                "categories": [
+                    {
+                        "id": 6,
+                        "parent": null
+                    }
+                ],
+                "description": "<p class=\"p1\">The Stockton, constructed of top grain smooth leather, invokes images of a young Brando sitting astride a vintage motorcycle in a classic black and white movie pose. This is an ivy cap made from soft, supple leather that allows for two distinct classic looks.&nbsp;</p>",
+                "discountsRestricted": false,
+                "discountsRestrictedEndDate": null,
+                "discountsRestrictedStartDate": null,
+                "fulfillmentStatus": "Fulfilled",
+                "fulfillmentTypesSupported": [
+                    "DirectShip",
+                    "InStorePickup"
+                ],
+                "goodsType": "Physical",
+                "imageAlternateText": null,
+                "imageUrl": "//cdn-sb.mozu.com/25379-38655/cms/38655/files/5fb060d0-b571-474e-9cff-49c7401e8c10",
+                "isPackagedStandAlone": false,
+                "isRecurring": null,
+                "isTaxable": false,
+                "measurements": {
+                    "height": {
+                        "unit": "in",
+                        "value": 1.0
+                    },
+                    "length": {
+                        "unit": "in",
+                        "value": 1.0
+                    },
+                    "weight": {
+                        "unit": "lbs",
+                        "value": 2.0
+                    },
+                    "width": {
+                        "unit": "in",
+                        "value": 1.0
+                    }
+                },
+                "mfgPartNumber": null,
+                "name": "Leather Driving Cap",
+                "options": [],
+                "price": {
+                    "creditValue": null,
+                    "msrp": null,
+                    "price": 89.0,
+                    "priceListCode": null,
+                    "priceListEntryMode": null,
+                    "salePrice": 79.0,
+                    "tenantOverridePrice": null
+                },
+                "productCode": "acc-1001",
+                "productReservationId": 11,
+                "productType": "clothing_accessories",
+                "productUsage": "Standard",
+                "properties": [
+                    {
+                        "attributeFQN": "tenant~availability",
+                        "dataType": "String",
+                        "isMultiValue": false,
+                        "name": "Availability",
+                        "values": [
+                            {
+                                "stringValue": "Usually Ships in 24 to 48 Hours",
+                                "value": "24-48hrs"
+                            }
+                        ]
+                    }
+                ],
+                "upc": null,
+                "variationProductCode": null
+            },
+            "productDiscount": null,
+            "productDiscounts": [],
+            "purchaseLocation": null,
+            "quantity": 1,
+            "shippingAmountBeforeDiscountsAndAdjustments": 0.0,
+            "shippingDiscounts": [],
+            "shippingTaxTotal": 0.0,
+            "shippingTotal": 0.0,
+            "subtotal": 79.0,
+            "taxData": null,
+            "taxableTotal": 79.0,
+            "total": 85.52,
+            "totalWithWeightedShippingAndHandling": 92.74,
+            "totalWithoutWeightedShippingAndHandling": 85.52,
+            "unitPrice": {
+                "extendedAmount": 79.0,
+                "listAmount": 89.0,
+                "overrideAmount": null,
+                "saleAmount": 79.0
+            },
+            "weightedOrderAdjustment": 0.0,
+            "weightedOrderDiscount": 0.0,
+            "weightedOrderDuty": 0.0,
+            "weightedOrderHandlingAdjustment": 0.0,
+            "weightedOrderHandlingFee": 0.0,
+            "weightedOrderHandlingFeeDiscount": 0.0,
+            "weightedOrderHandlingFeeTax": 0.0,
+            "weightedOrderShipping": 6.67,
+            "weightedOrderShippingDiscount": 0.0,
+            "weightedOrderShippingManualAdjustment": 0.0,
+            "weightedOrderShippingTax": 0.55,
+            "weightedOrderTax": 0.0
+        },
+        {
+            "adjustedLineItemSubtotal": 50.0,
+            "auditInfo": {
+                "createBy": "7b188a6f5d7745fbb316258ec796681b",
+                "createDate": "2018-08-03T14:24:28.083Z",
+                "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+                "updateDate": "2018-08-03T14:24:28.083Z"
+            },
+            "autoAddDiscountId": null,
+            "data": null,
+            "destinationId": null,
+            "discountTotal": 0.0,
+            "discountedTotal": 50.0,
+            "dutyAmount": null,
+            "extendedTotal": 50.0,
+            "feeTotal": 0.0,
+            "fulfillmentLocationCode": "homebase",
+            "fulfillmentMethod": "Ship",
+            "handlingAmount": null,
+            "id": "4654f4f1317d46f5bbf1a93100ed6eea",
+            "isRecurring": null,
+            "isTaxable": null,
+            "itemTaxTotal": 4.12,
+            "lineId": 3,
+            "localeCode": null,
+            "originalCartItemId": null,
+            "product": {
+                "allocationExpiration": null,
+                "allocationId": null,
+                "bundledProducts": [],
+                "categories": [],
+                "description": "Flaunt your feminine style with the Trench-89 pump from Parsons. This gorgeous t-strap will add a pop of stylish color to your favorite ensemble.",
+                "discountsRestricted": false,
+                "discountsRestrictedEndDate": null,
+                "discountsRestrictedStartDate": null,
+                "fulfillmentStatus": "Fulfilled",
+                "fulfillmentTypesSupported": [
+                    "DirectShip",
+                    "InStorePickup"
+                ],
+                "goodsType": "Physical",
+                "imageAlternateText": null,
+                "imageUrl": "//cdn-sb.mozu.com/25379-38655/cms/38655/files/8300fbf5-60a2-484b-943b-f5e26591435c",
+                "isPackagedStandAlone": false,
+                "isRecurring": null,
+                "isTaxable": true,
+                "measurements": {
+                    "height": null,
+                    "length": null,
+                    "weight": {
+                        "unit": "lbs",
+                        "value": 1.25
+                    },
+                    "width": null
+                },
+                "mfgPartNumber": null,
+                "name": "Parsons Trench-89 Pump",
+                "options": [],
+                "price": {
+                    "creditValue": null,
+                    "msrp": null,
+                    "price": 50.0,
+                    "priceListCode": null,
+                    "priceListEntryMode": null,
+                    "salePrice": null,
+                    "tenantOverridePrice": null
+                },
+                "productCode": "1006",
+                "productReservationId": null,
+                "productType": "Shoe_Women",
+                "productUsage": "Standard",
+                "properties": [
+                    {
+                        "attributeFQN": "tenant~availability",
+                        "dataType": "String",
+                        "isMultiValue": false,
+                        "name": "Availability",
+                        "values": [
+                            {
+                                "stringValue": "Usually Ships in 24 Hours",
+                                "value": "24hrs"
+                            }
+                        ]
+                    }
+                ],
+                "upc": null,
+                "variationProductCode": null
+            },
+            "productDiscount": null,
+            "productDiscounts": [],
+            "purchaseLocation": null,
+            "quantity": 1,
+            "shippingAmountBeforeDiscountsAndAdjustments": 0.0,
+            "shippingDiscounts": [],
+            "shippingTaxTotal": 0.0,
+            "shippingTotal": 0.0,
+            "subtotal": 50.0,
+            "taxData": null,
+            "taxableTotal": 50.0,
+            "total": 54.12,
+            "totalWithWeightedShippingAndHandling": 58.63,
+            "totalWithoutWeightedShippingAndHandling": 54.12,
+            "unitPrice": {
+                "extendedAmount": 50.0,
+                "listAmount": 50.0,
+                "overrideAmount": null,
+                "saleAmount": null
+            },
+            "weightedOrderAdjustment": 0.0,
+            "weightedOrderDiscount": 0.0,
+            "weightedOrderDuty": 0.0,
+            "weightedOrderHandlingAdjustment": 0.0,
+            "weightedOrderHandlingFee": 0.0,
+            "weightedOrderHandlingFeeDiscount": 0.0,
+            "weightedOrderHandlingFeeTax": 0.0,
+            "weightedOrderShipping": 4.17,
+            "weightedOrderShippingDiscount": 0.0,
+            "weightedOrderShippingManualAdjustment": 0.0,
+            "weightedOrderShippingTax": 0.34,
+            "weightedOrderTax": 0.0
+        },
+        {
+            "adjustedLineItemSubtotal": 54.0,
+            "auditInfo": {
+                "createBy": "7b188a6f5d7745fbb316258ec796681b",
+                "createDate": "2018-08-03T14:25:10.037Z",
+                "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+                "updateDate": "2018-08-03T14:25:10.037Z"
+            },
+            "autoAddDiscountId": null,
+            "data": null,
+            "destinationId": null,
+            "discountTotal": 6.0,
+            "discountedTotal": 54.0,
+            "dutyAmount": null,
+            "extendedTotal": 60.0,
+            "feeTotal": 0.0,
+            "fulfillmentLocationCode": "homebase",
+            "fulfillmentMethod": "Ship",
+            "handlingAmount": null,
+            "id": "bdebfd0aed7541708982a93100eda010",
+            "isRecurring": null,
+            "isTaxable": null,
+            "itemTaxTotal": 4.46,
+            "lineId": 4,
+            "localeCode": null,
+            "originalCartItemId": null,
+            "product": {
+                "allocationExpiration": null,
+                "allocationId": null,
+                "bundledProducts": [],
+                "categories": [
+                    {
+                        "id": 4,
+                        "parent": null
+                    }
+                ],
+                "description": "Looking for a feminine pump to elevate your height and your style? Look no further than the Meredith Angela Miranda Pump!",
+                "discountsRestricted": false,
+                "discountsRestrictedEndDate": null,
+                "discountsRestrictedStartDate": null,
+                "fulfillmentStatus": "Fulfilled",
+                "fulfillmentTypesSupported": [
+                    "DirectShip",
+                    "InStorePickup"
+                ],
+                "goodsType": "Physical",
+                "imageAlternateText": null,
+                "imageUrl": "//cdn-sb.mozu.com/25379-38655/cms/38655/files/e806bc37-38bb-419a-9df0-a26fb5593e74",
+                "isPackagedStandAlone": false,
+                "isRecurring": null,
+                "isTaxable": true,
+                "measurements": {
+                    "height": null,
+                    "length": null,
+                    "weight": {
+                        "unit": "lbs",
+                        "value": 1.25
+                    },
+                    "width": null
+                },
+                "mfgPartNumber": null,
+                "name": "Meredith Angela Miranda Pump",
+                "options": [],
+                "price": {
+                    "creditValue": null,
+                    "msrp": null,
+                    "price": 60.0,
+                    "priceListCode": null,
+                    "priceListEntryMode": null,
+                    "salePrice": null,
+                    "tenantOverridePrice": null
+                },
+                "productCode": "1014",
+                "productReservationId": null,
+                "productType": "Shoe_Women",
+                "productUsage": "Standard",
+                "properties": [
+                    {
+                        "attributeFQN": "tenant~availability",
+                        "dataType": "String",
+                        "isMultiValue": false,
+                        "name": "Availability",
+                        "values": [
+                            {
+                                "stringValue": "Usually Ships in 24 Hours",
+                                "value": "24hrs"
+                            }
+                        ]
+                    }
+                ],
+                "upc": null,
+                "variationProductCode": null
+            },
+            "productDiscount": {
+                "appliesToSalePrice": false,
+                "couponCode": "97A5087F",
+                "discount": {
+                    "expirationDate": "2019-03-11T19:56:00.000Z",
+                    "id": 6,
+                    "itemIds": null,
+                    "name": "line item percentage"
+                },
+                "discountQuantity": 1,
+                "excluded": false,
+                "impact": 6.0,
+                "impactPerUnit": 6.0,
+                "productQuantity": 1
+            },
+            "productDiscounts": [
+                {
+                    "appliesToSalePrice": false,
+                    "couponCode": "97A5087F",
+                    "discount": {
+                        "expirationDate": "2019-03-11T19:56:00.000Z",
+                        "id": 6,
+                        "itemIds": null,
+                        "name": "line item percentage"
+                    },
+                    "discountQuantity": 1,
+                    "excluded": false,
+                    "impact": 6.0,
+                    "impactPerUnit": 6.0,
+                    "productQuantity": 1
+                }
+            ],
+            "purchaseLocation": null,
+            "quantity": 1,
+            "shippingAmountBeforeDiscountsAndAdjustments": 0.0,
+            "shippingDiscounts": [],
+            "shippingTaxTotal": 0.0,
+            "shippingTotal": 0.0,
+            "subtotal": 60.0,
+            "taxData": null,
+            "taxableTotal": 54.0,
+            "total": 58.46,
+            "totalWithWeightedShippingAndHandling": 62.97,
+            "totalWithoutWeightedShippingAndHandling": 58.46,
+            "unitPrice": {
+                "extendedAmount": 60.0,
+                "listAmount": 60.0,
+                "overrideAmount": null,
+                "saleAmount": null
+            },
+            "weightedOrderAdjustment": 0.0,
+            "weightedOrderDiscount": 0.0,
+            "weightedOrderDuty": 0.0,
+            "weightedOrderHandlingAdjustment": 0.0,
+            "weightedOrderHandlingFee": 0.0,
+            "weightedOrderHandlingFeeDiscount": 0.0,
+            "weightedOrderHandlingFeeTax": 0.0,
+            "weightedOrderShipping": 4.16,
+            "weightedOrderShippingDiscount": 0.0,
+            "weightedOrderShippingManualAdjustment": 0.0,
+            "weightedOrderShippingTax": 0.35,
+            "weightedOrderTax": 0.0
+        }
+    ],
+    "lastValidationDate": "2018-08-03T14:25:12.184Z",
+    "lineItemSubtotalWithOrderAdjustments": 183.0,
+    "locationCode": null,
+    "notes": [],
+    "orderDiscounts": [],
+    "orderNumber": 77,
+    "originalCartId": null,
+    "packages": [
+        {
+            "auditInfo": {
+                "createBy": "7b188a6f5d7745fbb316258ec796681b",
+                "createDate": "2018-08-03T14:26:06.258Z",
+                "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+                "updateDate": "2018-08-03T14:26:09.926Z"
+            },
+            "availableActions": [],
+            "changeMessages": [],
+            "code": "Package-1",
+            "fulfillmentDate": "2018-08-03T14:26:09.926Z",
+            "fulfillmentLocationCode": "homebase",
+            "hasLabel": false,
+            "id": "a6b6576d12a4403fb842a93100ede1f7",
+            "items": [
+                {
+                    "fulfillmentItemType": "Physical",
+                    "lineId": 2,
+                    "optionAttributeFQN": "",
+                    "productCode": "acc-1001",
+                    "quantity": 1
+                },
+                {
+                    "fulfillmentItemType": "Physical",
+                    "lineId": 3,
+                    "optionAttributeFQN": "",
+                    "productCode": "1006",
+                    "quantity": 1
+                },
+                {
+                    "fulfillmentItemType": "Physical",
+                    "lineId": 4,
+                    "optionAttributeFQN": "",
+                    "productCode": "1014",
+                    "quantity": 1
+                }
+            ],
+            "measurements": null,
+            "packagingType": null,
+            "shipmentId": null,
+            "shippingMethodCode": "cf36feeccb4540aaa569dca206f25c6d",
+            "shippingMethodName": "Flat Rate",
+            "status": "Fulfilled",
+            "trackingNumber": null
+        }
+    ],
+    "parentCheckoutId": null,
+    "parentCheckoutNumber": null,
+    "parentOrderId": null,
+    "parentOrderNumber": null,
+    "parentReturnId": null,
+    "parentReturnNumber": null,
+    "partialOrderCount": null,
+    "partialOrderNumber": null,
+    "paymentStatus": "Paid",
+    "payments": [
+        {
+            "amountCollected": 215.58,
+            "amountCredited": 0.0,
+            "amountRequested": 215.58,
+            "auditInfo": {
+                "createBy": "7b188a6f5d7745fbb316258ec796681b",
+                "createDate": "2018-08-03T14:25:51.531Z",
+                "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+                "updateDate": "2018-08-03T14:26:10.381Z"
+            },
+            "availableActions": [
+                "Rollback",
+                "VoidPayment"
+            ],
+            "billingInfo": {
+                "auditInfo": {
+                    "createBy": "7b188a6f5d7745fbb316258ec796681b",
+                    "createDate": "2018-08-03T14:25:51.531Z",
+                    "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+                    "updateDate": "2018-08-03T14:25:51.531Z"
+                },
+                "billingContact": {
+                    "firstName": "m",
+                    "lastNameOrSurname": "m"
+                },
+                "card": null,
+                "check": null,
+                "customCreditType": null,
+                "data": null,
+                "externalTransactionId": null,
+                "isSameBillingShippingAddress": false,
+                "paymentType": "Check",
+                "paymentWorkflow": null,
+                "purchaseOrder": null,
+                "storeCreditCode": null,
+                "storeCreditType": null
+            },
+            "changeMessages": [
+                {
+                    "amount": null,
+                    "appId": "2e778ae20c7c433885c8e5e418774cb4",
+                    "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+                    "appName": null,
+                    "correlationId": "83b3bca5702e4f4c947237d226f5a595",
+                    "createDate": "2018-08-03T14:25:51.546Z",
+                    "id": "4840b4b97ce8422e8678a93100edd0b9",
+                    "identifier": "7d261899a9ba4237a84ba93100edd0b4",
+                    "message": "Workflow action succeeded.",
+                    "metadata": [
+                        {
+                            "amountCollected": 0.0,
+                            "amountCredited": 0.0,
+                            "amountRequested": 215.58,
+                            "newValue": "New",
+                            "oldValue": "New",
+                            "paymentServiceTransactionId": null,
+                            "paymentType": "Check",
+                            "transactionId": "7d261899a9ba4237a84ba93100edd0b4"
+                        }
+                    ],
+                    "newValue": "New",
+                    "oldValue": "New",
+                    "subject": "CreatePayment",
+                    "subjectType": "StateChange.Payment",
+                    "success": true,
+                    "userFirstName": "Morgan",
+                    "userId": "7b188a6f5d7745fbb316258ec796681b",
+                    "userLastName": "Monzingo",
+                    "userScopeType": "Tenant",
+                    "verb": "Applied"
+                },
+                {
+                    "amount": null,
+                    "appId": "2e778ae20c7c433885c8e5e418774cb4",
+                    "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+                    "appName": null,
+                    "correlationId": "b29693417d71464fa16610a396f608b1",
+                    "createDate": "2018-08-03T14:25:58.600Z",
+                    "id": "a9e7ff55cc4b40b9bc43a93100edd8fd",
+                    "identifier": "7d261899a9ba4237a84ba93100edd0b4",
+                    "message": "Workflow action succeeded.",
+                    "metadata": [
+                        {
+                            "amountCollected": 0.0,
+                            "amountCredited": 0.0,
+                            "amountRequested": 215.58,
+                            "newValue": "Pending",
+                            "oldValue": "New",
+                            "paymentServiceTransactionId": null,
+                            "paymentType": "Check",
+                            "transactionId": "7d261899a9ba4237a84ba93100edd0b4"
+                        }
+                    ],
+                    "newValue": "Pending",
+                    "oldValue": "New",
+                    "subject": "RequestCheck",
+                    "subjectType": "StateChange.Payment",
+                    "success": true,
+                    "userFirstName": "Morgan",
+                    "userId": "7b188a6f5d7745fbb316258ec796681b",
+                    "userLastName": "Monzingo",
+                    "userScopeType": "Tenant",
+                    "verb": "Applied"
+                }
+            ],
+            "data": null,
+            "externalTransactionId": null,
+            "groupId": {
+                "targetId": "0c64c36f2fffda2ac841ef3e00006323",
+                "targetNumber": null,
+                "targetType": "Order"
+            },
+            "id": "7d261899a9ba4237a84ba93100edd0b4",
+            "interactions": [
+                {
+                    "amount": 215.58,
+                    "auditInfo": {
+                        "createBy": "7b188a6f5d7745fbb316258ec796681b",
+                        "createDate": "2018-08-03T14:25:58.600Z",
+                        "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+                        "updateDate": "2018-08-03T14:25:58.600Z"
+                    },
+                    "checkNumber": null,
+                    "currencyCode": "USD",
+                    "gatewayAVSCodes": null,
+                    "gatewayAuthCode": null,
+                    "gatewayCVV2Codes": null,
+                    "gatewayInteractionId": null,
+                    "gatewayResponseCode": null,
+                    "gatewayResponseData": null,
+                    "gatewayResponseText": null,
+                    "gatewayTransactionId": null,
+                    "id": "2b1245782a1a44569646a93100edd8fd",
+                    "interactionDate": "2018-08-03T14:25:58.600Z",
+                    "interactionType": "RequestCheck",
+                    "isManual": false,
+                    "isRecurring": false,
+                    "note": null,
+                    "orderId": "0c64c36f2fffda2ac841ef3e00006323",
+                    "paymentEntryStatus": "New",
+                    "paymentId": "7d261899a9ba4237a84ba93100edd0b4",
+                    "paymentTransactionInteractionIdReference": null,
+                    "refundId": null,
+                    "returnId": null,
+                    "status": "CheckRequested",
+                    "target": {
+                        "targetId": "0c64c36f2fffda2ac841ef3e00006323",
+                        "targetNumber": 77,
+                        "targetType": "Order"
+                    }
+                },
+                {
+                    "amount": 215.58,
+                    "auditInfo": {
+                        "createBy": "7b188a6f5d7745fbb316258ec796681b",
+                        "createDate": "2018-08-03T14:26:16.005Z",
+                        "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+                        "updateDate": "2018-08-03T14:26:16.005Z"
+                    },
+                    "checkNumber": "123",
+                    "currencyCode": "USD",
+                    "gatewayAVSCodes": null,
+                    "gatewayAuthCode": null,
+                    "gatewayCVV2Codes": null,
+                    "gatewayInteractionId": null,
+                    "gatewayResponseCode": null,
+                    "gatewayResponseData": null,
+                    "gatewayResponseText": null,
+                    "gatewayTransactionId": null,
+                    "id": "549e712417a5484cb365a93100eded63",
+                    "interactionDate": "2018-08-03T14:26:16.005Z",
+                    "interactionType": "Capture",
+                    "isManual": true,
+                    "isRecurring": false,
+                    "note": null,
+                    "orderId": "0c64c36f2fffda2ac841ef3e00006323",
+                    "paymentEntryStatus": "Pending",
+                    "paymentId": "7d261899a9ba4237a84ba93100edd0b4",
+                    "paymentTransactionInteractionIdReference": null,
+                    "refundId": null,
+                    "returnId": null,
+                    "status": "Captured",
+                    "target": {
+                        "targetId": "0c64c36f2fffda2ac841ef3e00006323",
+                        "targetNumber": 77,
+                        "targetType": "Order"
+                    }
+                }
+            ],
+            "isRecurring": false,
+            "orderId": "0c64c36f2fffda2ac841ef3e00006323",
+            "paymentServiceTransactionId": null,
+            "paymentType": "Check",
+            "paymentWorkflow": "Mozu",
+            "status": "Collected",
+            "subPayments": []
+        }
+    ],
+    "pickups": [],
+    "priceListCode": null,
+    "refunds": [],
+    "returnStatus": "None",
+    "shipments": [],
+    "shippingAdjustment": null,
+    "shippingAmountBeforeDiscountsAndAdjustments": 15.0,
+    "shippingDiscounts": [],
+    "shippingSubTotal": 15.0,
+    "shippingTaxTotal": 1.24,
+    "shippingTotal": 15.0,
+    "shopperNotes": null,
+    "siteId": 38655,
+    "sourceDevice": null,
+    "status": "Processing",
+    "submittedDate": "2018-08-03T14:25:57.241Z",
+    "subtotal": 189.0,
+    "suggestedDiscounts": [],
+    "taxData": null,
+    "taxTotal": 17.58,
+    "tenantId": 25379,
+    "total": 215.58,
+    "totalCollected": 215.58,
+    "type": "Offline",
+    "validationResults": [],
+    "version": "1",
+    "visitId": null,
+    "webSessionId": null
+}

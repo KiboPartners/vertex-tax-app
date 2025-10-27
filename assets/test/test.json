@@ -1,0 +1,265 @@
+{
+    "Currency": {
+        "attributes": {
+            "isoCurrencyCodeAlpha": "USD",
+            "isoCurrencyCodeNum": "840",
+            "isoCurrencyName": "US Dollar"
+        }
+    },
+    "Customer": {
+        "Destination": {
+            "City": "Addison",
+            "Country": "USA",
+            "MainDivision": "TX",
+            "PostalCode": "75001",
+            "attributes": {
+                "taxAreaId": "441136035"
+            }
+        }
+    },
+    "LineItem": [
+        {
+            "ExtendedPrice": "50.0",
+            "FairMarketValue": "50.0",
+            "Product": "1006",
+            "Quantity": "1.0",
+            "Taxes": [
+                {
+                    "CalculatedTax": "3.13",
+                    "EffectiveRate": "0.0625",
+                    "Imposition": {
+                        "$value": "Sales and Use Tax",
+                        "attributes": {
+                            "impositionId": "1"
+                        }
+                    },
+                    "ImpositionType": {
+                        "$value": "General Sales and Use Tax",
+                        "attributes": {
+                            "impositionTypeId": "1"
+                        }
+                    },
+                    "Jurisdiction": {
+                        "$value": "TEXAS",
+                        "attributes": {
+                            "jurisdictionId": "35763",
+                            "jurisdictionLevel": "STATE"
+                        }
+                    },
+                    "TaxRuleId": "18653",
+                    "Taxable": "50.0",
+                    "attributes": {
+                        "situs": "DESTINATION",
+                        "taxCollectedFromParty": "BUYER",
+                        "taxResult": "TAXABLE",
+                        "taxStructure": "SINGLE_RATE",
+                        "taxType": "SALES"
+                    }
+                },
+                {
+                    "CalculatedTax": "0.5",
+                    "EffectiveRate": "0.01",
+                    "Imposition": {
+                        "$value": "Local Sales and Use Tax",
+                        "attributes": {
+                            "impositionId": "1"
+                        }
+                    },
+                    "ImpositionType": {
+                        "$value": "General Sales and Use Tax",
+                        "attributes": {
+                            "impositionTypeId": "1"
+                        }
+                    },
+                    "Jurisdiction": {
+                        "$value": "ADDISON",
+                        "attributes": {
+                            "jurisdictionId": "36376",
+                            "jurisdictionLevel": "CITY"
+                        }
+                    },
+                    "TaxRuleId": "19563",
+                    "Taxable": "50.0",
+                    "attributes": {
+                        "situs": "DESTINATION",
+                        "taxCollectedFromParty": "BUYER",
+                        "taxResult": "TAXABLE",
+                        "taxStructure": "SINGLE_RATE",
+                        "taxType": "SALES"
+                    }
+                },
+                {
+                    "CalculatedTax": "0.5",
+                    "EffectiveRate": "0.01",
+                    "Imposition": {
+                        "$value": "Local Sales and Use Tax",
+                        "attributes": {
+                            "impositionId": "1"
+                        }
+                    },
+                    "ImpositionType": {
+                        "$value": "General Sales and Use Tax",
+                        "attributes": {
+                            "impositionTypeId": "1"
+                        }
+                    },
+                    "Jurisdiction": {
+                        "$value": "DALLAS METROPOLITAN TRANSIT AUTHORITY",
+                        "attributes": {
+                            "jurisdictionId": "78120",
+                            "jurisdictionLevel": "TRANSIT_DISTRICT"
+                        }
+                    },
+                    "TaxRuleId": "26649",
+                    "Taxable": "50.0",
+                    "attributes": {
+                        "situs": "DESTINATION",
+                        "taxCollectedFromParty": "BUYER",
+                        "taxResult": "TAXABLE",
+                        "taxStructure": "SINGLE_RATE",
+                        "taxType": "SALES"
+                    }
+                }
+            ],
+            "TotalTax": "4.13",
+            "attributes": {
+                "lineItemNumber": "0"
+            }
+        },
+        {
+            "Discount": {
+                "DiscountAmount": "3.0",
+                "attributes": {
+                    "userDefinedDiscountCode": "ABF0337D"
+                }
+            },
+            "ExtendedPrice": "12.0",
+            "FairMarketValue": "15.0",
+            "Product": "cf36feeccb4540aaa569dca206f25c6d",
+            "Quantity": "1.0",
+            "Taxes": [
+                {
+                    "BasisRuleId": "71596",
+                    "CalculatedTax": "0.75",
+                    "EffectiveRate": "0.0625",
+                    "Imposition": {
+                        "$value": "Sales and Use Tax",
+                        "attributes": {
+                            "impositionId": "1"
+                        }
+                    },
+                    "ImpositionType": {
+                        "$value": "General Sales and Use Tax",
+                        "attributes": {
+                            "impositionTypeId": "1"
+                        }
+                    },
+                    "Jurisdiction": {
+                        "$value": "TEXAS",
+                        "attributes": {
+                            "jurisdictionId": "35763",
+                            "jurisdictionLevel": "STATE"
+                        }
+                    },
+                    "TaxRuleId": "18653",
+                    "Taxable": "12.0",
+                    "attributes": {
+                        "situs": "DESTINATION",
+                        "taxCollectedFromParty": "BUYER",
+                        "taxResult": "TAXABLE",
+                        "taxStructure": "SINGLE_RATE",
+                        "taxType": "SALES"
+                    }
+                },
+                {
+                    "BasisRuleId": "71596",
+                    "CalculatedTax": "0.12",
+                    "EffectiveRate": "0.01",
+                    "Imposition": {
+                        "$value": "Local Sales and Use Tax",
+                        "attributes": {
+                            "impositionId": "1"
+                        }
+                    },
+                    "ImpositionType": {
+                        "$value": "General Sales and Use Tax",
+                        "attributes": {
+                            "impositionTypeId": "1"
+                        }
+                    },
+                    "Jurisdiction": {
+                        "$value": "ADDISON",
+                        "attributes": {
+                            "jurisdictionId": "36376",
+                            "jurisdictionLevel": "CITY"
+                        }
+                    },
+                    "TaxRuleId": "19563",
+                    "Taxable": "12.0",
+                    "attributes": {
+                        "situs": "DESTINATION",
+                        "taxCollectedFromParty": "BUYER",
+                        "taxResult": "TAXABLE",
+                        "taxStructure": "SINGLE_RATE",
+                        "taxType": "SALES"
+                    }
+                },
+                {
+                    "BasisRuleId": "71596",
+                    "CalculatedTax": "0.12",
+                    "EffectiveRate": "0.01",
+                    "Imposition": {
+                        "$value": "Local Sales and Use Tax",
+                        "attributes": {
+                            "impositionId": "1"
+                        }
+                    },
+                    "ImpositionType": {
+                        "$value": "General Sales and Use Tax",
+                        "attributes": {
+                            "impositionTypeId": "1"
+                        }
+                    },
+                    "Jurisdiction": {
+                        "$value": "DALLAS METROPOLITAN TRANSIT AUTHORITY",
+                        "attributes": {
+                            "jurisdictionId": "78120",
+                            "jurisdictionLevel": "TRANSIT_DISTRICT"
+                        }
+                    },
+                    "TaxRuleId": "26649",
+                    "Taxable": "12.0",
+                    "attributes": {
+                        "situs": "DESTINATION",
+                        "taxCollectedFromParty": "BUYER",
+                        "taxResult": "TAXABLE",
+                        "taxStructure": "SINGLE_RATE",
+                        "taxType": "SALES"
+                    }
+                }
+            ],
+            "TotalTax": "0.99",
+            "attributes": {
+                "lineItemNumber": "1"
+            }
+        }
+    ],
+    "Seller": {
+        "PhysicalOrigin": {
+            "City": "Austin",
+            "Country": "USA",
+            "MainDivision": "TX",
+            "PostalCode": "78758",
+            "attributes": {
+                "taxAreaId": "444530150"
+            }
+        }
+    },
+    "SubTotal": "62.0",
+    "Total": "67.12",
+    "TotalTax": "5.12",
+    "attributes": {
+        "documentDate": "2018-08-02",
+        "transactionType": "SALE"
+    }
+}

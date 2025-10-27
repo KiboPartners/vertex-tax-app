@@ -1,0 +1,150 @@
+{
+    "Attributes": [],
+    "CurrencyCode": "USD",
+    "Data": null,
+    "HandlingDiscount": null,
+    "HandlingDiscounts": null,
+    "HandlingFee": 0.0,
+    "LineItems": [
+        {
+            "Data": null,
+            "DestinationAddress": null,
+            "DiscountTotal": 0.0,
+            "DiscountedTotal": 200.0,
+            "FeeTotal": 0.0,
+            "HandlingAmount": null,
+            "Id": "a8bc079826b14fd8aeaba92d013f3b2c",
+            "IsTaxable": true,
+            "LineItemPrice": 180.0,
+            "OriginAddress": null,
+            "ProductCode": "1006",
+            "ProductDiscount": null,
+            "ProductDiscounts": [],
+            "ProductName": "Parsons Trench-89 Pump",
+            "ProductProperties": [
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Availability",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~availability",
+                    "IsHidden": null,
+                    "IsMultiValue": false,
+                    "Values": [
+                        {
+                            "StringValue": "Usually Ships in 24 Hours",
+                            "Value": "24hrs"
+                        }
+                    ]
+                }
+            ],
+            "Quantity": 4,
+            "Reason": null,
+            "ShippingAmount": 0.0,
+            "ShippingDiscount": null,
+            "ShippingDiscounts": [],
+            "VariantProductCode": null
+        }
+    ],
+    "OrderDate": "0001-01-01T00:00:00.000Z",
+    "OrderDiscount": {
+        "CouponCode": "CREDERA",
+        "CouponSetId": null,
+        "Discount": {
+            "Amount": 0.0,
+            "AmountType": null,
+            "Condition": null,
+            "DiscountId": 0,
+            "DoesNotApplyToMultiShipToOrders": null,
+            "DoesNotApplyToProductsWithSalePrice": false,
+            "ExpirationDate": "2018-08-24T13:56:00.000Z",
+            "FriendlyDescription": null,
+            "IncludedPriceLists": null,
+            "MaxDiscountValuePerRedemption": null,
+            "MaxRedemptions": null,
+            "MaximumDiscountValuePerOrder": null,
+            "MaximumRedemptionsPerOrder": null,
+            "MaximumUsesPerUser": null,
+            "Name": "10% OFF",
+            "Redemptions": 0,
+            "RequiresAuthenticatedUser": false,
+            "Scope": null,
+            "StackingLayer": 0,
+            "Target": null,
+            "Type": null
+        },
+        "Impact": 20.0
+    },
+    "OrderDiscounts": [
+        {
+            "CouponCode": "CREDERA",
+            "CouponSetId": null,
+            "Discount": {
+                "Amount": 0.0,
+                "AmountType": null,
+                "Condition": null,
+                "DiscountId": 0,
+                "DoesNotApplyToMultiShipToOrders": null,
+                "DoesNotApplyToProductsWithSalePrice": false,
+                "ExpirationDate": "2018-08-24T13:56:00.000Z",
+                "FriendlyDescription": null,
+                "IncludedPriceLists": null,
+                "MaxDiscountValuePerRedemption": null,
+                "MaxRedemptions": null,
+                "MaximumDiscountValuePerOrder": null,
+                "MaximumRedemptionsPerOrder": null,
+                "MaximumUsesPerUser": null,
+                "Name": "10% OFF",
+                "Redemptions": 0,
+                "RequiresAuthenticatedUser": false,
+                "Scope": null,
+                "StackingLayer": 0,
+                "Target": null,
+                "Type": null
+            },
+            "Impact": 20.0
+        }
+    ],
+    "OrderId": "0c5fc359153e1e3a186b8b2400006323",
+    "OrderNumber": 52,
+    "OriginalDocumentCode": "52",
+    "OriginalOrderDate": "2018-07-30T19:22:29.333Z",
+    "ShippingAmount": 0.0,
+    "ShippingDiscount": null,
+    "ShippingDiscounts": null,
+    "ShippingMethodCode": null,
+    "ShippingMethodName": null,
+    "TaxContext": {
+        "CustomerId": "1004",
+        "DestinationAddress": {
+            "Address1": "999 18th St",
+            "Address2": "#1360",
+            "Address3": "",
+            "Address4": "",
+            "AddressType": "Residential",
+            "CityOrTown": "Denver",
+            "CountryCode": "US",
+            "IsValidated": false,
+            "PostalOrZipCode": "80202",
+            "StateOrProvince": "CO"
+        },
+        "OriginAddress": {
+            "Address1": "1835 Kramer Lane",
+            "Address2": "#100",
+            "Address3": null,
+            "Address4": null,
+            "AddressType": null,
+            "CityOrTown": "Austin",
+            "CountryCode": "US",
+            "IsValidated": false,
+            "PostalOrZipCode": "78758",
+            "StateOrProvince": "TX"
+        },
+        "TaxContextId": "52",
+        "TaxExemptId": null
+    },
+    "TaxRequestType": "Order"
+}

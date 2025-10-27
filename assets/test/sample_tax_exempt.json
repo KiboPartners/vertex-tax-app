@@ -1,0 +1,94 @@
+{
+    "Attributes": [],
+    "CurrencyCode": "USD",
+    "Data": null,
+    "HandlingDiscount": null,
+    "HandlingDiscounts": null,
+    "HandlingFee": 0.0,
+    "LineItems": [
+        {
+            "Data": null,
+            "DestinationAddress": null,
+            "DiscountTotal": 0.0,
+            "DiscountedTotal": 60.0,
+            "FeeTotal": 0.0,
+            "HandlingAmount": null,
+            "Id": "07fa28911f47436c8105a935013bef4f",
+            "IsTaxable": true,
+            "LineItemPrice": 60.0,
+            "OriginAddress": null,
+            "ProductCode": "1005",
+            "ProductDiscount": null,
+            "ProductDiscounts": [],
+            "ProductName": "Piona Kailas Patent Pump",
+            "ProductProperties": [
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Availability",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~availability",
+                    "IsHidden": null,
+                    "IsMultiValue": false,
+                    "Values": [
+                        {
+                            "StringValue": "Usually Ships in 24 Hours",
+                            "Value": "24hrs"
+                        }
+                    ]
+                }
+            ],
+            "Quantity": 1,
+            "Reason": null,
+            "ShippingAmount": 0.0,
+            "ShippingDiscount": null,
+            "ShippingDiscounts": [],
+            "VariantProductCode": null
+        }
+    ],
+    "OrderDate": "0001-01-01T00:00:00.000Z",
+    "OrderDiscount": null,
+    "OrderDiscounts": null,
+    "OrderId": "0c6a4c83153e1e47c0a102a200006323",
+    "OrderNumber": 115,
+    "OriginalDocumentCode": "115",
+    "OriginalOrderDate": "2018-08-07T19:27:27.981Z",
+    "ShippingAmount": 15.0,
+    "ShippingDiscount": null,
+    "ShippingDiscounts": null,
+    "ShippingMethodCode": "cf36feeccb4540aaa569dca206f25c6d",
+    "ShippingMethodName": "Flat Rate",
+    "TaxContext": {
+        "CustomerId": "1003",
+        "DestinationAddress": {
+            "Address1": "15303 Dallas Pkwy",
+            "Address2": "#300",
+            "Address3": "",
+            "Address4": "",
+            "AddressType": "Residential",
+            "CityOrTown": "Addison",
+            "CountryCode": "US",
+            "IsValidated": false,
+            "PostalOrZipCode": "75001",
+            "StateOrProvince": "TX"
+        },
+        "OriginAddress": {
+            "Address1": "1835 Kramer Lane",
+            "Address2": "#100",
+            "Address3": null,
+            "Address4": null,
+            "AddressType": null,
+            "CityOrTown": "Austin",
+            "CountryCode": "US",
+            "IsValidated": false,
+            "PostalOrZipCode": "78758",
+            "StateOrProvince": "TX"
+        },
+        "TaxContextId": "115",
+        "TaxExemptId": "1234567890"
+    },
+    "TaxRequestType": "Order"
+}

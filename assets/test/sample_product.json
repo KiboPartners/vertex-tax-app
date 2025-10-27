@@ -1,0 +1,196 @@
+{
+    "auditInfo": {
+        "createBy": "c220cbcd9ca346698987a19e0081eecc",
+        "createDate": "2013-10-03T23:03:57.946Z",
+        "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+        "updateDate": "2018-08-16T16:40:01.186Z"
+    },
+    "content": {
+        "localeCode": "en-US",
+        "productFullDescription": "",
+        "productImages": [
+            {
+                "cmsId": "8d428716-0178-4626-905a-5e18bc213314",
+                "id": 208,
+                "localeCode": "en-US",
+                "sequence": 1
+            }
+        ],
+        "productName": "Treven Getta Patent Pump",
+        "productShortDescription": ""
+    },
+    "fulfillmentTypesSupported": [
+        "DirectShip",
+        "InStorePickup"
+    ],
+    "hasConfigurableOptions": false,
+    "hasStandAloneOptions": false,
+    "inventoryInfo": {
+        "manageStock": false
+    },
+    "isPackagedStandAlone": true,
+    "isRecurring": false,
+    "isTaxable": true,
+    "isValidForProductType": true,
+    "isVariation": false,
+    "masterCatalogId": 1,
+    "packageHeight": {
+        "unit": "in",
+        "value": 1
+    },
+    "packageLength": {
+        "unit": "in",
+        "value": 1
+    },
+    "packageWeight": {
+        "unit": "lbs",
+        "value": 1
+    },
+    "packageWidth": {
+        "unit": "in",
+        "value": 1
+    },
+    "price": {
+        "isoCurrencyCode": "USD",
+        "price": 50
+    },
+    "pricingBehavior": {
+        "discountsRestricted": false,
+        "variationPricingMethod": "Fixed"
+    },
+    "productCode": "1001",
+    "productInCatalogs": [
+        {
+            "activeDateRange": {},
+            "auditInfo": {
+                "createBy": "c220cbcd9ca346698987a19e0081eecc",
+                "createDate": "2013-10-03T23:03:57.946Z",
+                "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+                "updateDate": "2018-08-16T16:40:01.186Z"
+            },
+            "catalogId": 1,
+            "content": {
+                "localeCode": "en-US",
+                "productFullDescription": "",
+                "productImages": [
+                    {
+                        "cmsId": "8d428716-0178-4626-905a-5e18bc213314",
+                        "id": 208,
+                        "localeCode": "en-US",
+                        "sequence": 1
+                    }
+                ],
+                "productName": "Treven Getta Patent Pump",
+                "productShortDescription": ""
+            },
+            "dateFirstAvailableInCatalog": "2013-10-03T00:00:00.000Z",
+            "isActive": true,
+            "isContentOverridden": false,
+            "isPriceOverridden": false,
+            "isSeoContentOverridden": false,
+            "price": {
+                "isoCurrencyCode": "USD",
+                "price": 50
+            },
+            "productCategories": [
+                {
+                    "categoryId": 4
+                }
+            ],
+            "seoContent": {
+                "localeCode": "en-US"
+            }
+        },
+        {
+            "activeDateRange": {},
+            "auditInfo": {
+                "createBy": "c220cbcd9ca346698987a19e0081eecc",
+                "createDate": "2013-10-03T23:17:10.106Z",
+                "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+                "updateDate": "2018-08-16T16:40:01.186Z"
+            },
+            "catalogId": 2,
+            "content": {
+                "localeCode": "en-US",
+                "productFullDescription": "",
+                "productImages": [
+                    {
+                        "cmsId": "8d428716-0178-4626-905a-5e18bc213314",
+                        "id": 208,
+                        "localeCode": "en-US",
+                        "sequence": 1
+                    }
+                ],
+                "productName": "Treven Getta Patent Pump",
+                "productShortDescription": ""
+            },
+            "dateFirstAvailableInCatalog": "2013-10-03T00:00:00.000Z",
+            "isActive": true,
+            "isContentOverridden": false,
+            "isPriceOverridden": false,
+            "isSeoContentOverridden": false,
+            "price": {
+                "isoCurrencyCode": "USD",
+                "price": 50
+            },
+            "productCategories": [
+                {
+                    "categoryId": 24
+                }
+            ],
+            "seoContent": {
+                "localeCode": "en-US"
+            }
+        }
+    ],
+    "productSequence": 1,
+    "productTypeId": 3,
+    "productUsage": "Standard",
+    "properties": [
+        {
+            "attributeFQN": "tenant~availability",
+            "values": [
+                {
+                    "attributeVocabularyValueDetail": {
+                        "content": {
+                            "localeCode": "en-US",
+                            "stringValue": "Usually Ships in 24 Hours"
+                        },
+                        "value": "24hrs",
+                        "valueSequence": 1
+                    },
+                    "value": "24hrs"
+                }
+            ]
+        },
+        {
+            "attributeFQN": "Vertex~vertex-product-class",
+            "values": [
+                {
+                    "attributeVocabularyValueDetail": {
+                        "content": {
+                            "localeCode": "en-US",
+                            "stringValue": "Class A"
+                        },
+                        "value": "Class-A",
+                        "valueSequence": 96
+                    },
+                    "value": "Class-A"
+                }
+            ]
+        }
+    ],
+    "publishingInfo": {
+        "publishedState": "Live"
+    },
+    "seoContent": {
+        "localeCode": "en-US"
+    },
+    "standAlonePackageType": "CUSTOM",
+    "supplierInfo": {
+        "cost": {
+            "cost": 0,
+            "isoCurrencyCode": "USD"
+        }
+    }
+}

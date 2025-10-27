@@ -1,0 +1,105 @@
+{
+    "attributes": [
+        {
+            "attributeDefinitionId": 4,
+            "auditInfo": {
+                "createBy": "7b188a6f5d7745fbb316258ec796681b",
+                "createDate": "2018-08-16T13:32:53.606Z",
+                "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+                "updateDate": "2018-08-16T13:32:53.223Z"
+            },
+            "fullyQualifiedName": "Vertex~vertex-customer-code",
+            "values": [
+                "CODE 1"
+            ]
+        },
+        {
+            "attributeDefinitionId": 2,
+            "auditInfo": {
+                "createBy": "7b188a6f5d7745fbb316258ec796681b",
+                "createDate": "2018-08-16T13:32:53.159Z",
+                "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+                "updateDate": "2018-08-16T13:32:53.223Z"
+            },
+            "fullyQualifiedName": "Vertex~vertex-customer-class",
+            "values": [
+                "JV"
+            ]
+        }
+    ],
+    "auditInfo": {
+        "createBy": "7b188a6f5d7745fbb316258ec796681b",
+        "createDate": "2018-07-19T15:36:52.793Z",
+        "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+        "updateDate": "2018-08-16T13:32:53.223Z"
+    },
+    "commerceSummary": {
+        "lastOrderDate": "2018-08-08T13:18:02.963Z",
+        "orderCount": 36,
+        "totalOrderAmount": {
+            "amount": 12305.83
+        }
+    },
+    "companyOrOrganization": "",
+    "contacts": [
+        {
+            "accountId": 1003,
+            "address": {
+                "address1": "15303 Dallas Pkwy",
+                "address2": "#300",
+                "address3": "",
+                "address4": "",
+                "addressType": "Residential",
+                "cityOrTown": "Addison",
+                "countryCode": "US",
+                "isValidated": false,
+                "postalOrZipCode": "75001",
+                "stateOrProvince": "TX"
+            },
+            "auditInfo": {
+                "createBy": "7b188a6f5d7745fbb316258ec796681b",
+                "createDate": "2018-07-19T15:37:22.507Z",
+                "updateBy": "7b188a6f5d7745fbb316258ec796681b",
+                "updateDate": "2018-07-19T15:37:22.507Z"
+            },
+            "companyOrOrganization": "Credera",
+            "email": "morgan.monzingo@credera.com",
+            "firstName": "Morgan",
+            "id": 1002,
+            "lastNameOrSurname": "Monzingo",
+            "middleNameOrInitial": "",
+            "phoneNumbers": {
+                "home": "512-912-6027",
+                "mobile": "",
+                "work": ""
+            },
+            "types": [
+                {
+                    "isPrimary": true,
+                    "name": "Shipping"
+                },
+                {
+                    "isPrimary": true,
+                    "name": "Billing"
+                }
+            ]
+        }
+    ],
+    "customerSet": "default",
+    "customerSinceDate": "2018-07-19T15:36:52.000Z",
+    "emailAddress": "morgan.monzingo@credera.com",
+    "externalId": "",
+    "firstName": "Morgan",
+    "hasExternalPassword": false,
+    "id": 1003,
+    "isActive": true,
+    "isAnonymous": false,
+    "isLocked": false,
+    "lastName": "Monzingo",
+    "notes": [],
+    "segments": [],
+    "taxExempt": true,
+    "taxId": "1234567890",
+    "userId": "0d5abbdd3eff49c8b113fa247d5f403e",
+    "userName": "morgan.monzingo@credera.com"
+}

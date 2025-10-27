@@ -1,0 +1,71 @@
+{
+   "address": {
+      "address1": "5741 Legacy Dr",
+      "address2": "",
+      "address3": "",
+      "address4": "",
+      "addressType": "string",
+      "cityOrTown": "Plano",
+      "countryCode": "US",
+      "isValidated": true,
+      "postalOrZipCode": "75024",
+      "stateOrProvince": "TX"
+   },
+   "allowFulfillmentWithNoStock": true,
+   "code": "string",
+   "description": "string",
+   "fax": "string",
+   "fulfillmentTypes": [
+      {
+         "code": "string",
+         "name": "string"
+      }
+   ],
+   "geo": {
+      "lat": "double",
+      "lng": "double"
+   },
+   "isDisabled": false,
+   "locationTypes": [
+      {
+         "code": "string",
+         "name": "string"
+      }
+   ],
+   "name": "The Shops at Legacy",
+   "note": "string",
+   "phone": "string",
+   "regularHours": {
+      "friday": {
+         "label": "string"
+      },
+      "monday": {
+         "label": "string"
+      },
+      "saturday": {
+         "label": "string"
+      },
+      "sunday": {
+         "label": "string"
+      },
+      "thursday": {
+         "label": "string"
+      },
+      "tuesday": {
+         "label": "string"
+      },
+      "wednesday": {
+         "label": "string"
+      }
+   },
+   "shippingOriginContact": {
+      "companyOrOrganization": "string",
+      "email": "string",
+      "firstName": "string",
+      "lastNameOrSurname": "string",
+      "middleNameOrInitial": "string",
+      "phoneNumber": "string"
+   },
+   "supportsInventory": true,
+   "tags": "string"
+}

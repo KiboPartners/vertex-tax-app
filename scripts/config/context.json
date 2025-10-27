@@ -1,0 +1,20 @@
+{
+  "apiContext": {
+    "appKey": "test-app-key",
+    "version": "1.0",
+    "tenant": "test-tenant",
+    "siteId": "test-site",
+    "masterCatalog": "1",
+    "catalogId": "1"
+  },
+  "exec": {
+    "setItemAllocation": {},
+    "setAttribute": {},
+    "removeAttribute": {},
+    "setData": {},
+    "removeData": {},
+    "setItemData": {},
+    "removeItemData": {},
+    "setDutyAmount": {}
+  }
+} 

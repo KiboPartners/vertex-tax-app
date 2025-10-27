@@ -1,0 +1,507 @@
+{
+    "auditInfo": {
+        "createBy": "b487c57855524a709e9d2ebea94b628a",
+        "createDate": "2018-09-11T20:26:14.037Z",
+        "updateBy": "b487c57855524a709e9d2ebea94b628a",
+        "updateDate": "2018-09-11T20:27:45.435Z"
+    },
+    "availableActions": [
+        "Await",
+        "Receive",
+        "Restock",
+        "Ship",
+        "Close"
+    ],
+    "changeMessages": [
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "fb7e5bd39c4e4d139e21f0bad4d41da9",
+            "createDate": "2018-09-11T20:26:14.021Z",
+            "id": "2ffe2b366c0f4d4b9f70a9580150cb90",
+            "identifier": null,
+            "message": "Workflow action succeeded.",
+            "metadata": [
+                {
+                    "amount": 0.0,
+                    "newValue": "Created",
+                    "oldValue": "Null",
+                    "productCodes": [
+                        "ACC2-1"
+                    ],
+                    "returnNumber": null,
+                    "rmaId": null
+                }
+            ],
+            "newValue": "Created",
+            "oldValue": "Null",
+            "subject": "Create",
+            "subjectType": "StateChange.Return",
+            "success": true,
+            "userFirstName": "Will",
+            "userId": "b487c57855524a709e9d2ebea94b628a",
+            "userLastName": "Spurgin",
+            "userScopeType": "Tenant",
+            "verb": "Applied"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "fb7e5bd39c4e4d139e21f0bad4d41da9",
+            "createDate": "2018-09-11T20:26:14.377Z",
+            "id": "2c86e4277a2d4e3283c1a9580150cbfb",
+            "identifier": "0c9882e622ff68059c241fc7000063d7",
+            "message": "Workflow action succeeded.",
+            "metadata": [
+                {
+                    "amount": 0.0,
+                    "newValue": "Authorized",
+                    "oldValue": "Created",
+                    "productCodes": [
+                        "ACC2-1"
+                    ],
+                    "returnNumber": 14,
+                    "rmaId": "0c9882e622ff68059c241fc7000063d7"
+                }
+            ],
+            "newValue": "Authorized",
+            "oldValue": "Created",
+            "subject": "Authorize",
+            "subjectType": "StateChange.Return",
+            "success": true,
+            "userFirstName": "Will",
+            "userId": "b487c57855524a709e9d2ebea94b628a",
+            "userLastName": "Spurgin",
+            "userScopeType": "Tenant",
+            "verb": "Applied"
+        },
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "fbdc4a675b8547d6a8dfe6b7adb8a499",
+            "createDate": "2018-09-11T20:27:45.577Z",
+            "id": "56c9d4b460b34e3abfbba958015136db",
+            "identifier": "0c988167038d5f43c095fd29000063d7",
+            "message": "Updated Return 0c9882e622ff68059c241fc7000063d7 on Order 0c988167038d5f43c095fd29000063d7",
+            "metadata": [
+                {
+                    "amount": 50.34,
+                    "orderNumber": 39,
+                    "productCodes": [
+                        "ACC2-1"
+                    ],
+                    "returnId": "14",
+                    "returnType": "Replace",
+                    "transactionId": null
+                }
+            ],
+            "newValue": null,
+            "oldValue": null,
+            "subject": "Return Updated",
+            "subjectType": "Order",
+            "success": null,
+            "userFirstName": "Will",
+            "userId": "b487c57855524a709e9d2ebea94b628a",
+            "userLastName": "Spurgin",
+            "userScopeType": "Tenant",
+            "verb": "Updated"
+        }
+    ],
+    "channelCode": "RTL",
+    "contact": {
+        "address": {
+            "address1": "350 E MAIN ST",
+            "address2": "",
+            "address3": "",
+            "address4": "",
+            "addressType": "Residential",
+            "cityOrTown": "ALLEN",
+            "countryCode": "US",
+            "isValidated": true,
+            "postalOrZipCode": "75002",
+            "stateOrProvince": "TX"
+        },
+        "companyOrOrganization": "",
+        "email": "will.spurgin@gmail.com",
+        "firstName": "W",
+        "id": 1005,
+        "lastNameOrSurname": "S",
+        "middleNameOrInitial": "",
+        "phoneNumbers": {
+            "home": "2143445444",
+            "mobile": "",
+            "work": ""
+        }
+    },
+    "currencyCode": "USD",
+    "customerAccountId": 1005,
+    "customerInteractionType": "Unknown",
+    "id": "0c9882e622ff68059c241fc7000063d7",
+    "items": [
+        {
+            "bundledProducts": [],
+            "excludeProductExtras": false,
+            "id": "d243516167094312a099a9580150cb95",
+            "notes": [],
+            "orderItemId": "7df9655f94e74ebe8f7fa958014f6687",
+            "orderItemOptionAttributeFQN": "",
+            "orderLineId": 1,
+            "product": {
+                "allocationExpiration": null,
+                "allocationId": null,
+                "bundledProducts": [],
+                "categories": [
+                    {
+                        "id": 9,
+                        "parent": {
+                            "id": 3,
+                            "parent": null
+                        }
+                    }
+                ],
+                "description": "The Black Diamond Adjustable Ski Poles feature sturdy, re-bendable aluminum shafts and a comfortable grip that doesn't interfere with even the most extreme grabs.",
+                "discountsRestricted": false,
+                "discountsRestrictedEndDate": null,
+                "discountsRestrictedStartDate": null,
+                "fulfillmentStatus": "PartiallyReturned",
+                "fulfillmentTypesSupported": [
+                    "DirectShip",
+                    "InStorePickup"
+                ],
+                "goodsType": "Physical",
+                "imageAlternateText": "Green",
+                "imageUrl": "//cdn-sb.mozu.com/25559-39093/cms/39093/files/410364a4-902e-4ee5-8088-c3bdc168e6a7",
+                "isPackagedStandAlone": false,
+                "isRecurring": null,
+                "isTaxable": true,
+                "measurements": {
+                    "height": {
+                        "unit": "in",
+                        "value": 1.0
+                    },
+                    "length": {
+                        "unit": "in",
+                        "value": 52.0
+                    },
+                    "weight": {
+                        "unit": "lbs",
+                        "value": 2.0
+                    },
+                    "width": {
+                        "unit": "in",
+                        "value": 1.0
+                    }
+                },
+                "mfgPartNumber": null,
+                "name": "Black Diamond Adjustable Ski Poles",
+                "options": [
+                    {
+                        "attributeFQN": "tenant~color",
+                        "dataType": null,
+                        "name": "Color",
+                        "shopperEnteredValue": "Green",
+                        "stringValue": "Green",
+                        "value": "Green"
+                    }
+                ],
+                "price": {
+                    "creditValue": null,
+                    "msrp": null,
+                    "price": 39.0,
+                    "priceListCode": null,
+                    "priceListEntryMode": null,
+                    "salePrice": null,
+                    "tenantOverridePrice": null
+                },
+                "productCode": "ACC2",
+                "productReservationId": 21,
+                "productType": "Accessory",
+                "productUsage": "Configurable",
+                "properties": [
+                    {
+                        "attributeFQN": "tenant~product-crosssell",
+                        "dataType": "String",
+                        "isMultiValue": true,
+                        "name": "Product Cross-Sells",
+                        "values": [
+                            {
+                                "stringValue": "ACC1",
+                                "value": "ACC1"
+                            },
+                            {
+                                "stringValue": "ACC3",
+                                "value": "ACC3"
+                            },
+                            {
+                                "stringValue": "BCKPCK3",
+                                "value": "BCKPCK3"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~popularity",
+                        "dataType": "Number",
+                        "isMultiValue": true,
+                        "name": "Popularity",
+                        "values": [
+                            {
+                                "stringValue": null,
+                                "value": 5.0
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~rating",
+                        "dataType": "Number",
+                        "isMultiValue": true,
+                        "name": "Rating",
+                        "values": [
+                            {
+                                "stringValue": null,
+                                "value": 4.0
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~product-upsell",
+                        "dataType": "String",
+                        "isMultiValue": true,
+                        "name": "Product Upsells",
+                        "values": [
+                            {
+                                "stringValue": "ACC1",
+                                "value": "ACC1"
+                            },
+                            {
+                                "stringValue": "ACC3",
+                                "value": "ACC3"
+                            },
+                            {
+                                "stringValue": "SKI3",
+                                "value": "SKI3"
+                            },
+                            {
+                                "stringValue": "TOP18",
+                                "value": "TOP18"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~color-filter",
+                        "dataType": "String",
+                        "isMultiValue": true,
+                        "name": "color filter",
+                        "values": [
+                            {
+                                "stringValue": "Green",
+                                "value": "Green"
+                            },
+                            {
+                                "stringValue": "Yellow",
+                                "value": "Yellow"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~isrecommended",
+                        "dataType": "String",
+                        "isMultiValue": true,
+                        "name": "isRecommended",
+                        "values": [
+                            {
+                                "stringValue": "Skiier",
+                                "value": "Skiier"
+                            },
+                            {
+                                "stringValue": "Winter",
+                                "value": "Winter"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~video-url",
+                        "dataType": "String",
+                        "isMultiValue": false,
+                        "name": "video-url",
+                        "values": [
+                            {
+                                "stringValue": "https://www.youtube.com/watch?v=iz7wtTO7roQ",
+                                "value": "https://www.youtube.com/watch?v=iz7wtTO7roQ"
+                            }
+                        ]
+                    }
+                ],
+                "upc": null,
+                "variationProductCode": "ACC2-1"
+            },
+            "productLossAmount": 39.0,
+            "productLossTaxAmount": 3.22,
+            "quantityReceived": 1,
+            "quantityReplaced": null,
+            "quantityRestockable": 1,
+            "quantityShipped": 0,
+            "reasons": [
+                {
+                    "quantity": 1,
+                    "reason": "Different Expectations"
+                }
+            ],
+            "receiveStatus": "Received",
+            "refundAmount": 50.34,
+            "refundStatus": "Refunded",
+            "replaceStatus": "NotRequested",
+            "returnNotRequired": false,
+            "returnType": "Refund",
+            "shippingLossAmount": 7.5,
+            "shippingLossTaxAmount": 0.0,
+            "totalWithWeightedShippingAndHandling": 50.34,
+            "totalWithoutWeightedShippingAndHandling": 42.22
+        }
+    ],
+    "locationCode": "WRH001",
+    "lossTotal": 46.5,
+    "notes": [],
+    "originalOrderId": "0c988167038d5f43c095fd29000063d7",
+    "originalOrderNumber": 39,
+    "packages": [],
+    "payments": [
+        {
+            "amountCollected": 0.0,
+            "amountCredited": 0.0,
+            "amountRequested": 0.0,
+            "auditInfo": {
+                "createBy": "b487c57855524a709e9d2ebea94b628a",
+                "createDate": "2018-09-11T20:27:45.264Z",
+                "updateBy": "b487c57855524a709e9d2ebea94b628a",
+                "updateDate": "2018-09-11T20:27:45.608Z"
+            },
+            "availableActions": [
+                "CreditPayment"
+            ],
+            "billingInfo": {
+                "auditInfo": {},
+                "billingContact": null,
+                "card": null,
+                "check": null,
+                "customCreditType": null,
+                "data": null,
+                "externalTransactionId": null,
+                "isSameBillingShippingAddress": false,
+                "paymentType": "StoreCredit",
+                "paymentWorkflow": null,
+                "purchaseOrder": null,
+                "storeCreditCode": "f5ab4cc19d1b4a95",
+                "storeCreditType": null
+            },
+            "changeMessages": [
+                {
+                    "amount": null,
+                    "appId": "2e778ae20c7c433885c8e5e418774cb4",
+                    "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+                    "appName": null,
+                    "correlationId": "fbdc4a675b8547d6a8dfe6b7adb8a499",
+                    "createDate": "2018-09-11T20:27:45.577Z",
+                    "id": "7bf3c5fc12564d2985fda958015136db",
+                    "identifier": "d8a819b77ea84ac79b31a9580151367d",
+                    "message": "Workflow action succeeded.",
+                    "metadata": [
+                        {
+                            "amountCollected": 0.0,
+                            "amountCredited": 0.0,
+                            "amountRequested": 0.0,
+                            "newValue": "Credited",
+                            "oldValue": "New",
+                            "paymentServiceTransactionId": null,
+                            "paymentType": "StoreCreditOrGiftCard",
+                            "transactionId": "d8a819b77ea84ac79b31a9580151367d"
+                        }
+                    ],
+                    "newValue": "Credited",
+                    "oldValue": "New",
+                    "subject": "CreditPayment",
+                    "subjectType": "StateChange.Payment",
+                    "success": true,
+                    "userFirstName": "Will",
+                    "userId": "b487c57855524a709e9d2ebea94b628a",
+                    "userLastName": "Spurgin",
+                    "userScopeType": "Tenant",
+                    "verb": "Applied"
+                }
+            ],
+            "data": null,
+            "externalTransactionId": null,
+            "groupId": null,
+            "id": "d8a819b77ea84ac79b31a9580151367d",
+            "interactions": [
+                {
+                    "amount": 50.34,
+                    "auditInfo": {
+                        "createBy": "b487c57855524a709e9d2ebea94b628a",
+                        "createDate": "2018-09-11T20:27:45.280Z",
+                        "updateBy": "b487c57855524a709e9d2ebea94b628a",
+                        "updateDate": "2018-09-11T20:27:45.280Z"
+                    },
+                    "checkNumber": null,
+                    "currencyCode": "USD",
+                    "gatewayAVSCodes": null,
+                    "gatewayAuthCode": null,
+                    "gatewayCVV2Codes": null,
+                    "gatewayInteractionId": null,
+                    "gatewayResponseCode": null,
+                    "gatewayResponseData": null,
+                    "gatewayResponseText": null,
+                    "gatewayTransactionId": null,
+                    "id": "64ee2a76da8d4e68bf25a95801513682",
+                    "interactionDate": "2018-09-11T20:27:45.280Z",
+                    "interactionType": "Credit",
+                    "isManual": false,
+                    "isRecurring": false,
+                    "note": null,
+                    "orderId": "0c9882e622ff68059c241fc7000063d7",
+                    "paymentEntryStatus": "New",
+                    "paymentId": "d8a819b77ea84ac79b31a9580151367d",
+                    "paymentTransactionInteractionIdReference": null,
+                    "refundId": null,
+                    "returnId": "0c9882e622ff68059c241fc7000063d7",
+                    "status": "Credited",
+                    "target": {
+                        "targetId": "0c988167038d5f43c095fd29000063d7",
+                        "targetNumber": 39,
+                        "targetType": "Order"
+                    }
+                }
+            ],
+            "isRecurring": false,
+            "orderId": "0c9882e622ff68059c241fc7000063d7",
+            "paymentServiceTransactionId": null,
+            "paymentType": "StoreCredit",
+            "paymentWorkflow": "Mozu",
+            "status": "Credited",
+            "subPayments": []
+        }
+    ],
+    "productLossTaxTotal": null,
+    "productLossTotal": 39.0,
+    "receiveStatus": "FullyReceived",
+    "refundAmount": 50.34,
+    "refundStatus": "FullyRefunded",
+    "replaceStatus": "NotRequested",
+    "returnNumber": 14,
+    "returnOrderId": null,
+    "returnType": "Replace",
+    "rmaDeadline": null,
+    "shippingLossTaxTotal": 0.0,
+    "shippingLossTotal": 7.5,
+    "siteId": 39093,
+    "status": "Authorized",
+    "tenantId": 25559,
+    "userId": "d7b50ebab5944a33b25dfb59fbc6f3d6",
+    "visitId": null,
+    "webSessionId": null
+}

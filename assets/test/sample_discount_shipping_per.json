@@ -1,0 +1,152 @@
+{
+    "Attributes": [],
+    "CurrencyCode": "USD",
+    "Data": null,
+    "HandlingDiscount": null,
+    "HandlingDiscounts": null,
+    "HandlingFee": 0.0,
+    "LineItems": [
+        {
+            "Data": null,
+            "DestinationAddress": null,
+            "DiscountTotal": 0.0,
+            "DiscountedTotal": 60.0,
+            "FeeTotal": 0.0,
+            "HandlingAmount": null,
+            "Id": "dd415a2ade8d44fd88fba92d0145a769",
+            "IsTaxable": true,
+            "LineItemPrice": 60.0,
+            "OriginAddress": null,
+            "ProductCode": "1005",
+            "ProductDiscount": null,
+            "ProductDiscounts": [],
+            "ProductName": "Piona Kailas Patent Pump",
+            "ProductProperties": [
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Availability",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~availability",
+                    "IsHidden": null,
+                    "IsMultiValue": false,
+                    "Values": [
+                        {
+                            "StringValue": "Usually Ships in 24 Hours",
+                            "Value": "24hrs"
+                        }
+                    ]
+                }
+            ],
+            "Quantity": 1,
+            "Reason": null,
+            "ShippingAmount": 15.0,
+            "ShippingDiscount": null,
+            "ShippingDiscounts": [],
+            "VariantProductCode": null
+        }
+    ],
+    "OrderDate": "0001-01-01T00:00:00.000Z",
+    "OrderDiscount": null,
+    "OrderDiscounts": null,
+    "OrderId": "0c5fc808636c732260ca7fa900006323",
+    "OrderNumber": 55,
+    "OriginalDocumentCode": "55",
+    "OriginalOrderDate": "2018-07-30T19:45:46.124Z",
+    "ShippingAmount": 12.0,
+    "ShippingDiscount": {
+        "CouponCode": "ABF0337D",
+        "CouponSetId": null,
+        "Discount": {
+            "Amount": 0.0,
+            "AmountType": null,
+            "Condition": null,
+            "DiscountId": 0,
+            "DoesNotApplyToMultiShipToOrders": null,
+            "DoesNotApplyToProductsWithSalePrice": false,
+            "ExpirationDate": "2018-12-07T20:34:00.000Z",
+            "FriendlyDescription": null,
+            "IncludedPriceLists": null,
+            "MaxDiscountValuePerRedemption": null,
+            "MaxRedemptions": null,
+            "MaximumDiscountValuePerOrder": null,
+            "MaximumRedemptionsPerOrder": null,
+            "MaximumUsesPerUser": null,
+            "Name": "Shipping Discount Percentage ",
+            "Redemptions": 0,
+            "RequiresAuthenticatedUser": false,
+            "Scope": null,
+            "StackingLayer": 0,
+            "Target": null,
+            "Type": null
+        },
+        "Impact": 3.0,
+        "ShippingMethodCode": "cf36feeccb4540aaa569dca206f25c6d"
+    },
+    "ShippingDiscounts": [
+        {
+            "CouponCode": "ABF0337D",
+            "CouponSetId": null,
+            "Discount": {
+                "Amount": 0.0,
+                "AmountType": null,
+                "Condition": null,
+                "DiscountId": 0,
+                "DoesNotApplyToMultiShipToOrders": null,
+                "DoesNotApplyToProductsWithSalePrice": false,
+                "ExpirationDate": "2018-12-07T20:34:00.000Z",
+                "FriendlyDescription": null,
+                "IncludedPriceLists": null,
+                "MaxDiscountValuePerRedemption": null,
+                "MaxRedemptions": null,
+                "MaximumDiscountValuePerOrder": null,
+                "MaximumRedemptionsPerOrder": null,
+                "MaximumUsesPerUser": null,
+                "Name": "Shipping Discount Percentage ",
+                "Redemptions": 0,
+                "RequiresAuthenticatedUser": false,
+                "Scope": null,
+                "StackingLayer": 0,
+                "Target": null,
+                "Type": null
+            },
+            "Impact": 3.0,
+            "ShippingMethodCode": "cf36feeccb4540aaa569dca206f25c6d"
+        }
+    ],
+    "ShippingMethodCode": "cf36feeccb4540aaa569dca206f25c6d",
+    "ShippingMethodName": "Flat Rate",
+    "TaxContext": {
+        "CustomerId": "1003",
+        "DestinationAddress": {
+            "Address1": "15303 Dallas Pkwy",
+            "Address2": "#300",
+            "Address3": "",
+            "Address4": "",
+            "AddressType": "Residential",
+            "CityOrTown": "Addison",
+            "CountryCode": "US",
+            "IsValidated": false,
+            "PostalOrZipCode": "75001",
+            "StateOrProvince": "TX"
+        },
+        "OriginAddress": {
+            "Address1": "1835 Kramer Lane",
+            "Address2": "#100",
+            "Address3": null,
+            "Address4": null,
+            "AddressType": null,
+            "CityOrTown": "Austin",
+            "CountryCode": "US",
+            "IsValidated": false,
+            "PostalOrZipCode": "78758",
+            "StateOrProvince": "TX"
+        },
+        "TaxContextId": "55",
+        "TaxExemptId": null
+    },
+    "TaxRequestType": "Order"
+}

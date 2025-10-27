@@ -1,0 +1,568 @@
+{
+    "auditInfo": {
+        "createBy": "b487c57855524a709e9d2ebea94b628a",
+        "createDate": "2018-09-10T04:49:13.234Z",
+        "updateBy": "b487c57855524a709e9d2ebea94b628a",
+        "updateDate": "2018-09-10T04:49:13.234Z"
+    },
+    "availableActions": [
+        "Authorize",
+        "Cancel",
+        "Reject"
+    ],
+    "changeMessages": [
+        {
+            "amount": null,
+            "appId": "2e778ae20c7c433885c8e5e418774cb4",
+            "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+            "appName": null,
+            "correlationId": "94e3a53f283a4ba693072ffa992001a8",
+            "createDate": "2018-09-10T04:49:13.234Z",
+            "id": "74603824aeec499d8f3da957004f6fd2",
+            "identifier": null,
+            "message": "Workflow action succeeded.",
+            "metadata": [
+                {
+                    "amount": 0.0,
+                    "newValue": "Created",
+                    "oldValue": "Null",
+                    "productCodes": [
+                        "BCKPCK2-2"
+                    ],
+                    "returnNumber": null,
+                    "rmaId": null
+                }
+            ],
+            "newValue": "Created",
+            "oldValue": "Null",
+            "subject": "Create",
+            "subjectType": "StateChange.Return",
+            "success": true,
+            "userFirstName": "Will",
+            "userId": "b487c57855524a709e9d2ebea94b628a",
+            "userLastName": "Spurgin",
+            "userScopeType": "Tenant",
+            "verb": "Applied"
+        }
+    ],
+    "channelCode": "RTL",
+    "contact": {
+        "address": {
+            "address1": "350 E MAIN ST",
+            "address2": "",
+            "address3": "",
+            "address4": "",
+            "addressType": "Residential",
+            "cityOrTown": "ALLEN",
+            "countryCode": "US",
+            "isValidated": true,
+            "postalOrZipCode": "75002",
+            "stateOrProvince": "TX"
+        },
+        "companyOrOrganization": "",
+        "email": "will.spurgin@gmail.com",
+        "firstName": "W",
+        "id": 1005,
+        "lastNameOrSurname": "S",
+        "middleNameOrInitial": "",
+        "phoneNumbers": {
+            "home": "2143445444",
+            "mobile": "",
+            "work": ""
+        }
+    },
+    "currencyCode": "USD",
+    "customerAccountId": 1005,
+    "customerInteractionType": "Unknown",
+    "id": "0c9655c9636c733a3cd4815e000063d7",
+    "items": [
+        {
+            "bundledProducts": [],
+            "excludeProductExtras": false,
+            "id": "efd497e5433345a8b164a957004f6fdc",
+            "notes": [],
+            "orderItemId": "8ef909e7443643f88d55a95700485edd",
+            "orderItemOptionAttributeFQN": "",
+            "orderLineId": 1,
+            "product": {
+                "allocationExpiration": null,
+                "allocationId": null,
+                "bundledProducts": [],
+                "categories": [
+                    {
+                        "id": 6,
+                        "parent": {
+                            "id": 2,
+                            "parent": null
+                        }
+                    }
+                ],
+                "description": "The&nbsp;Kelty Redwing 50 offers 5 large compartments for storing all your travel items a features a comfortable fit for long outdoor activities. Never leave home without all your essentials. &nbsp;",
+                "discountsRestricted": false,
+                "discountsRestrictedEndDate": null,
+                "discountsRestrictedStartDate": null,
+                "fulfillmentStatus": "Fulfilled",
+                "fulfillmentTypesSupported": [
+                    "DirectShip",
+                    "InStorePickup"
+                ],
+                "goodsType": "Physical",
+                "imageAlternateText": "Tan",
+                "imageUrl": "//cdn-sb.mozu.com/25559-39093/cms/39093/files/2f81532c-0c60-4a86-9fd7-4e7ab5c0e9dd",
+                "isPackagedStandAlone": false,
+                "isRecurring": null,
+                "isTaxable": true,
+                "measurements": {
+                    "height": {
+                        "unit": "in",
+                        "value": 1.0
+                    },
+                    "length": {
+                        "unit": "in",
+                        "value": 1.0
+                    },
+                    "weight": {
+                        "unit": "lbs",
+                        "value": 1.0
+                    },
+                    "width": {
+                        "unit": "in",
+                        "value": 1.0
+                    }
+                },
+                "mfgPartNumber": null,
+                "name": "Kelty Redwing 50",
+                "options": [
+                    {
+                        "attributeFQN": "tenant~color",
+                        "dataType": null,
+                        "name": "Color",
+                        "shopperEnteredValue": "Tan",
+                        "stringValue": "Tan",
+                        "value": "Tan"
+                    }
+                ],
+                "price": {
+                    "creditValue": null,
+                    "msrp": null,
+                    "price": 145.0,
+                    "priceListCode": null,
+                    "priceListEntryMode": null,
+                    "salePrice": null,
+                    "tenantOverridePrice": null
+                },
+                "productCode": "BCKPCK2",
+                "productReservationId": 16,
+                "productType": "Backpack",
+                "productUsage": "Configurable",
+                "properties": [
+                    {
+                        "attributeFQN": "tenant~product-crosssell",
+                        "dataType": "String",
+                        "isMultiValue": true,
+                        "name": "Product Cross-Sells",
+                        "values": [
+                            {
+                                "stringValue": "BCKPCK3",
+                                "value": "BCKPCK3"
+                            },
+                            {
+                                "stringValue": "PAD3",
+                                "value": "PAD3"
+                            },
+                            {
+                                "stringValue": "KAY2",
+                                "value": "KAY2"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~popularity",
+                        "dataType": "Number",
+                        "isMultiValue": true,
+                        "name": "Popularity",
+                        "values": [
+                            {
+                                "stringValue": null,
+                                "value": 2.0
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~rating",
+                        "dataType": "Number",
+                        "isMultiValue": true,
+                        "name": "Rating",
+                        "values": [
+                            {
+                                "stringValue": null,
+                                "value": 1.0
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~product-upsell",
+                        "dataType": "String",
+                        "isMultiValue": true,
+                        "name": "Product Upsells",
+                        "values": [
+                            {
+                                "stringValue": "BIKE1",
+                                "value": "BIKE1"
+                            },
+                            {
+                                "stringValue": "BOT1",
+                                "value": "BOT1"
+                            },
+                            {
+                                "stringValue": "BCKPCK3",
+                                "value": "BCKPCK3"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~color-filter",
+                        "dataType": "String",
+                        "isMultiValue": true,
+                        "name": "color filter",
+                        "values": [
+                            {
+                                "stringValue": "Red",
+                                "value": "Red"
+                            },
+                            {
+                                "stringValue": "Tan",
+                                "value": "Tan"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~isrecommended",
+                        "dataType": "String",
+                        "isMultiValue": true,
+                        "name": "isRecommended",
+                        "values": [
+                            {
+                                "stringValue": "Employee",
+                                "value": "Employee"
+                            },
+                            {
+                                "stringValue": "Kayaker",
+                                "value": "Kayaker"
+                            },
+                            {
+                                "stringValue": "Summer",
+                                "value": "Summer"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~brand",
+                        "dataType": "String",
+                        "isMultiValue": false,
+                        "name": "Brand",
+                        "values": [
+                            {
+                                "stringValue": "North Face",
+                                "value": "North-Face"
+                            }
+                        ]
+                    },
+                    {
+                        "attributeFQN": "tenant~video-url",
+                        "dataType": "String",
+                        "isMultiValue": false,
+                        "name": "video-url",
+                        "values": [
+                            {
+                                "stringValue": "https://www.youtube.com/watch?v=iz7wtTO7roQ",
+                                "value": "https://www.youtube.com/watch?v=iz7wtTO7roQ"
+                            }
+                        ]
+                    }
+                ],
+                "upc": null,
+                "variationProductCode": "BCKPCK2-2"
+            },
+            "productLossAmount": 145.0,
+            "productLossTaxAmount": 13.61,
+            "quantityReceived": 0,
+            "quantityReplaced": null,
+            "quantityRestockable": 0,
+            "quantityShipped": 0,
+            "reasons": [
+                {
+                    "quantity": 1,
+                    "reason": "No Longer Wanted"
+                }
+            ],
+            "receiveStatus": "Waiting",
+            "refundAmount": null,
+            "refundStatus": "NotRefunded",
+            "replaceStatus": "NotRequested",
+            "returnNotRequired": false,
+            "returnType": "Refund",
+            "shippingLossAmount": 9.99,
+            "shippingLossTaxAmount": 1.65,
+            "totalWithWeightedShippingAndHandling": 168.6,
+            "totalWithoutWeightedShippingAndHandling": 157.79
+        }
+    ],
+    "locationCode": "WRH001",
+    "lossTotal": 154.99,
+    "notes": [],
+    "originalOrderId": "0c964fa325028b44f01cbd2f000063d7",
+    "originalOrderNumber": 32,
+    "packages": [],
+    "payments": [
+        {
+            "amountCollected": 337.2,
+            "amountCredited": 0.0,
+            "amountRequested": 337.2,
+            "auditInfo": {
+                "createBy": "b487c57855524a709e9d2ebea94b628a",
+                "createDate": "2018-09-10T04:24:49.688Z",
+                "updateBy": "b487c57855524a709e9d2ebea94b628a",
+                "updateDate": "2018-09-10T04:49:13.343Z"
+            },
+            "availableActions": [
+                "Rollback",
+                "VoidPayment"
+            ],
+            "billingInfo": {
+                "auditInfo": {
+                    "createBy": "b487c57855524a709e9d2ebea94b628a",
+                    "createDate": "2018-09-10T04:24:49.688Z",
+                    "updateBy": "b487c57855524a709e9d2ebea94b628a",
+                    "updateDate": "2018-09-10T04:24:49.688Z"
+                },
+                "billingContact": {
+                    "firstName": "Will",
+                    "lastNameOrSurname": "Spurgin"
+                },
+                "card": null,
+                "check": null,
+                "customCreditType": null,
+                "data": null,
+                "externalTransactionId": null,
+                "isSameBillingShippingAddress": false,
+                "paymentType": "Check",
+                "paymentWorkflow": null,
+                "purchaseOrder": null,
+                "storeCreditCode": null,
+                "storeCreditType": null
+            },
+            "changeMessages": [
+                {
+                    "amount": null,
+                    "appId": "2e778ae20c7c433885c8e5e418774cb4",
+                    "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+                    "appName": null,
+                    "correlationId": "35e5276656ab4f8f8f076ad9684ce118",
+                    "createDate": "2018-09-10T04:24:50.463Z",
+                    "id": "03084bbec1b64081a4f5a9570048bda3",
+                    "identifier": "2d83b6ba181f43d29559a9570048bcbb",
+                    "message": "Workflow action succeeded.",
+                    "metadata": [
+                        {
+                            "amountCollected": 0.0,
+                            "amountCredited": 0.0,
+                            "amountRequested": 337.2,
+                            "newValue": "New",
+                            "oldValue": "New",
+                            "paymentServiceTransactionId": null,
+                            "paymentType": "Check",
+                            "transactionId": "2d83b6ba181f43d29559a9570048bcbb"
+                        }
+                    ],
+                    "newValue": "New",
+                    "oldValue": "New",
+                    "subject": "CreatePayment",
+                    "subjectType": "StateChange.Payment",
+                    "success": true,
+                    "userFirstName": "Will",
+                    "userId": "b487c57855524a709e9d2ebea94b628a",
+                    "userLastName": "Spurgin",
+                    "userScopeType": "Tenant",
+                    "verb": "Applied"
+                },
+                {
+                    "amount": null,
+                    "appId": "2e778ae20c7c433885c8e5e418774cb4",
+                    "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+                    "appName": null,
+                    "correlationId": "35e5276656ab4f8f8f076ad9684ce118",
+                    "createDate": "2018-09-10T04:24:51.465Z",
+                    "id": "95564c66f14546fcb92aa9570048bed0",
+                    "identifier": "2d83b6ba181f43d29559a9570048bcbb",
+                    "message": "Workflow action succeeded.",
+                    "metadata": [
+                        {
+                            "amountCollected": 0.0,
+                            "amountCredited": 0.0,
+                            "amountRequested": 337.2,
+                            "newValue": "Pending",
+                            "oldValue": "New",
+                            "paymentServiceTransactionId": null,
+                            "paymentType": "Check",
+                            "transactionId": "2d83b6ba181f43d29559a9570048bcbb"
+                        }
+                    ],
+                    "newValue": "Pending",
+                    "oldValue": "New",
+                    "subject": "RequestCheck",
+                    "subjectType": "StateChange.Payment",
+                    "success": true,
+                    "userFirstName": "Will",
+                    "userId": "b487c57855524a709e9d2ebea94b628a",
+                    "userLastName": "Spurgin",
+                    "userScopeType": "Tenant",
+                    "verb": "Applied"
+                },
+                {
+                    "amount": null,
+                    "appId": "2e778ae20c7c433885c8e5e418774cb4",
+                    "appKey": "mozu.MozuAdmin.1827.3.0.Release",
+                    "appName": null,
+                    "correlationId": "88b362e8b50144288366652cb3f2e518",
+                    "createDate": "2018-09-10T04:24:58.375Z",
+                    "id": "c2bf9d35c75f4af783c9a9570048c6e9",
+                    "identifier": "2d83b6ba181f43d29559a9570048bcbb",
+                    "message": "Workflow action succeeded.",
+                    "metadata": [
+                        {
+                            "amountCollected": 337.2,
+                            "amountCredited": 0.0,
+                            "amountRequested": 337.2,
+                            "newValue": "Collected",
+                            "oldValue": "Pending",
+                            "paymentServiceTransactionId": null,
+                            "paymentType": "Check",
+                            "transactionId": "2d83b6ba181f43d29559a9570048bcbb"
+                        }
+                    ],
+                    "newValue": "Collected",
+                    "oldValue": "Pending",
+                    "subject": "CapturePayment",
+                    "subjectType": "StateChange.Payment",
+                    "success": true,
+                    "userFirstName": "Will",
+                    "userId": "b487c57855524a709e9d2ebea94b628a",
+                    "userLastName": "Spurgin",
+                    "userScopeType": "Tenant",
+                    "verb": "Applied"
+                }
+            ],
+            "data": null,
+            "externalTransactionId": null,
+            "groupId": {
+                "targetId": "0c964fa325028b44f01cbd2f000063d7",
+                "targetNumber": null,
+                "targetType": "Order"
+            },
+            "id": "2d83b6ba181f43d29559a9570048bcbb",
+            "interactions": [
+                {
+                    "amount": 337.2,
+                    "auditInfo": {
+                        "createBy": "b487c57855524a709e9d2ebea94b628a",
+                        "createDate": "2018-09-10T04:24:51.465Z",
+                        "updateBy": "b487c57855524a709e9d2ebea94b628a",
+                        "updateDate": "2018-09-10T04:24:51.465Z"
+                    },
+                    "checkNumber": null,
+                    "currencyCode": "USD",
+                    "gatewayAVSCodes": null,
+                    "gatewayAuthCode": null,
+                    "gatewayCVV2Codes": null,
+                    "gatewayInteractionId": null,
+                    "gatewayResponseCode": null,
+                    "gatewayResponseData": null,
+                    "gatewayResponseText": null,
+                    "gatewayTransactionId": null,
+                    "id": "ff8edb6626434ed187e7a9570048bed0",
+                    "interactionDate": "2018-09-10T04:24:51.465Z",
+                    "interactionType": "RequestCheck",
+                    "isManual": false,
+                    "isRecurring": false,
+                    "note": null,
+                    "orderId": "0c964fa325028b44f01cbd2f000063d7",
+                    "paymentEntryStatus": "New",
+                    "paymentId": "2d83b6ba181f43d29559a9570048bcbb",
+                    "paymentTransactionInteractionIdReference": null,
+                    "refundId": null,
+                    "returnId": null,
+                    "status": "CheckRequested",
+                    "target": {
+                        "targetId": "0c964fa325028b44f01cbd2f000063d7",
+                        "targetNumber": 32,
+                        "targetType": "Order"
+                    }
+                },
+                {
+                    "amount": 337.2,
+                    "auditInfo": {
+                        "createBy": "b487c57855524a709e9d2ebea94b628a",
+                        "createDate": "2018-09-10T04:24:58.344Z",
+                        "updateBy": "b487c57855524a709e9d2ebea94b628a",
+                        "updateDate": "2018-09-10T04:24:58.344Z"
+                    },
+                    "checkNumber": "97654323",
+                    "currencyCode": "USD",
+                    "gatewayAVSCodes": null,
+                    "gatewayAuthCode": null,
+                    "gatewayCVV2Codes": null,
+                    "gatewayInteractionId": null,
+                    "gatewayResponseCode": null,
+                    "gatewayResponseData": null,
+                    "gatewayResponseText": null,
+                    "gatewayTransactionId": null,
+                    "id": "9c3674c83b5d4703b483a9570048c6df",
+                    "interactionDate": "2018-09-10T04:24:58.344Z",
+                    "interactionType": "Capture",
+                    "isManual": true,
+                    "isRecurring": false,
+                    "note": null,
+                    "orderId": "0c964fa325028b44f01cbd2f000063d7",
+                    "paymentEntryStatus": "Pending",
+                    "paymentId": "2d83b6ba181f43d29559a9570048bcbb",
+                    "paymentTransactionInteractionIdReference": null,
+                    "refundId": null,
+                    "returnId": null,
+                    "status": "Captured",
+                    "target": {
+                        "targetId": "0c964fa325028b44f01cbd2f000063d7",
+                        "targetNumber": 32,
+                        "targetType": "Order"
+                    }
+                }
+            ],
+            "isRecurring": false,
+            "orderId": "0c964fa325028b44f01cbd2f000063d7",
+            "paymentServiceTransactionId": null,
+            "paymentType": "Check",
+            "paymentWorkflow": "Mozu",
+            "status": "Collected",
+            "subPayments": []
+        }
+    ],
+    "productLossTaxTotal": null,
+    "productLossTotal": 145.0,
+    "receiveStatus": "Waiting",
+    "refundAmount": 0.0,
+    "refundStatus": "NotRefunded",
+    "replaceStatus": "NotRequested",
+    "returnNumber": 4,
+    "returnOrderId": null,
+    "returnType": "Replace",
+    "rmaDeadline": null,
+    "shippingLossTaxTotal": 1.65,
+    "shippingLossTotal": 9.99,
+    "siteId": 39093,
+    "status": "Created",
+    "tenantId": 25559,
+    "userId": "d7b50ebab5944a33b25dfb59fbc6f3d6",
+    "visitId": null,
+    "webSessionId": null
+}
+

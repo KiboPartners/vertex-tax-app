@@ -1,0 +1,261 @@
+{
+    "Attributes": [],
+    "CurrencyCode": "USD",
+    "Data": null,
+    "HandlingDiscount": null,
+    "HandlingDiscounts": null,
+    "HandlingFee": 0.0,
+    "LineItems": [
+        {
+            "Data": null,
+            "DestinationAddress": null,
+            "DiscountTotal": null,
+            "DiscountedTotal": null,
+            "FeeTotal": null,
+            "HandlingAmount": null,
+            "Id": "2bb96d2fb3724272a92aa93c01091f3e",
+            "IsTaxable": true,
+            "LineItemPrice": 54.0,
+            "OriginAddress": null,
+            "ProductCode": "ACC1",
+            "ProductDiscount": null,
+            "ProductDiscounts": null,
+            "ProductName": null,
+            "ProductProperties": [
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Availability",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~availability",
+                    "IsHidden": null,
+                    "IsMultiValue": false,
+                    "Values": [
+                        {
+                            "StringValue": "Usually Ships in 24 Hours",
+                            "Value": "24hrs"
+                        }
+                    ]
+                },
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Product Cross-Sells",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~product-crosssell",
+                    "IsHidden": null,
+                    "IsMultiValue": true,
+                    "Values": [
+                        {
+                            "StringValue": "ACC2",
+                            "Value": "ACC2"
+                        },
+                        {
+                            "StringValue": "ACC3",
+                            "Value": "ACC3"
+                        },
+                        {
+                            "StringValue": "PET3",
+                            "Value": "PET3"
+                        },
+                        {
+                            "StringValue": "SKI2",
+                            "Value": "SKI2"
+                        }
+                    ]
+                },
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Popularity",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~popularity",
+                    "IsHidden": null,
+                    "IsMultiValue": true,
+                    "Values": [
+                        {
+                            "StringValue": null,
+                            "Value": 4.0
+                        }
+                    ]
+                },
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Rating",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~rating",
+                    "IsHidden": null,
+                    "IsMultiValue": true,
+                    "Values": [
+                        {
+                            "StringValue": null,
+                            "Value": 3.0
+                        }
+                    ]
+                },
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Product Upsells",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~product-upsell",
+                    "IsHidden": null,
+                    "IsMultiValue": true,
+                    "Values": [
+                        {
+                            "StringValue": "ACC2",
+                            "Value": "ACC2"
+                        },
+                        {
+                            "StringValue": "ACC3",
+                            "Value": "ACC3"
+                        },
+                        {
+                            "StringValue": "BCKPCK1",
+                            "Value": "BCKPCK1"
+                        },
+                        {
+                            "StringValue": "SKI3",
+                            "Value": "SKI3"
+                        },
+                        {
+                            "StringValue": "SKI2",
+                            "Value": "SKI2"
+                        }
+                    ]
+                },
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "color filter",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~color-filter",
+                    "IsHidden": null,
+                    "IsMultiValue": true,
+                    "Values": [
+                        {
+                            "StringValue": "Green",
+                            "Value": "Green"
+                        },
+                        {
+                            "StringValue": "Red",
+                            "Value": "Red"
+                        },
+                        {
+                            "StringValue": "Yellow",
+                            "Value": "Yellow"
+                        }
+                    ]
+                },
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "isRecommended",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~isrecommended",
+                    "IsHidden": null,
+                    "IsMultiValue": true,
+                    "Values": [
+                        {
+                            "StringValue": "Skiier",
+                            "Value": "Skiier"
+                        },
+                        {
+                            "StringValue": "Winter",
+                            "Value": "Winter"
+                        }
+                    ]
+                },
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "video-url",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~video-url",
+                    "IsHidden": null,
+                    "IsMultiValue": false,
+                    "Values": [
+                        {
+                            "StringValue": "https://www.youtube.com/watch?v=iz7wtTO7roQ",
+                            "Value": "https://www.youtube.com/watch?v=iz7wtTO7roQ"
+                        }
+                    ]
+                }
+            ],
+            "Quantity": 2,
+            "Reason": "Different Expectations",
+            "ShippingAmount": 0.0,
+            "ShippingDiscount": null,
+            "ShippingDiscounts": null,
+            "VariantProductCode": null
+        }
+    ],
+    "OrderDate": "2018-08-14T16:05:39.540Z",
+    "OrderDiscount": null,
+    "OrderDiscounts": null,
+    "OrderId": null,
+    "OrderNumber": 28,
+    "OriginalDocumentCode": "28",
+    "OriginalOrderDate": "2018-08-14T16:05:39.540Z",
+    "ShippingAmount": 0.0,
+    "ShippingDiscount": null,
+    "ShippingDiscounts": null,
+    "ShippingMethodCode": null,
+    "ShippingMethodName": null,
+    "TaxContext": {
+        "CustomerId": "1005",
+        "DestinationAddress": {
+            "Address1": "350 E MAIN ST",
+            "Address2": "",
+            "Address3": "",
+            "Address4": "",
+            "AddressType": "Residential",
+            "CityOrTown": "ALLEN",
+            "CountryCode": "US",
+            "IsValidated": true,
+            "PostalOrZipCode": "75002",
+            "StateOrProvince": "TX"
+        },
+        "OriginAddress": {
+            "Address1": "1835 Kramer ln",
+            "Address2": null,
+            "Address3": null,
+            "Address4": null,
+            "AddressType": null,
+            "CityOrTown": "Austin",
+            "CountryCode": "US",
+            "IsValidated": false,
+            "PostalOrZipCode": "78758",
+            "StateOrProvince": "TX"
+        },
+        "TaxContextId": "28",
+        "TaxExemptId": null
+    },
+    "TaxRequestType": "Return"
+}
+

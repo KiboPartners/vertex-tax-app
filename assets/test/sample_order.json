@@ -1,0 +1,94 @@
+{
+    "Attributes": [],
+    "CurrencyCode": "USD",
+    "Data": null,
+    "HandlingDiscount": null,
+    "HandlingDiscounts": null,
+    "HandlingFee": 0.0,
+    "LineItems": [
+        {
+            "Data": null,
+            "DestinationAddress": null,
+            "DiscountTotal": 0.0,
+            "DiscountedTotal": 199.0,
+            "FeeTotal": 0.0,
+            "HandlingAmount": null,
+            "Id": "9c6ce4b6a2fe487c90a2a91c0115074f",
+            "IsTaxable": true,
+            "LineItemPrice": 199.0,
+            "OriginAddress": null,
+            "ProductCode": "blz-1001",
+            "ProductDiscount": null,
+            "ProductDiscounts": [],
+            "ProductName": "Wool Blazer",
+            "ProductProperties": [
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Availability",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~availability",
+                    "IsHidden": null,
+                    "IsMultiValue": false,
+                    "Values": [
+                        {
+                            "StringValue": "Usually Ships in 24 to 48 Hours",
+                            "Value": "24-48hrs"
+                        }
+                    ]
+                }
+            ],
+            "Quantity": 1,
+            "Reason": null,
+            "ShippingAmount": 0.0,
+            "ShippingDiscount": null,
+            "ShippingDiscounts": [],
+            "VariantProductCode": null
+        }
+    ],
+    "OrderDate": "0001-01-01T00:00:00.000Z",
+    "OrderDiscount": null,
+    "OrderDiscounts": null,
+    "OrderId": "0c4935e6153e1e3b9c1de5f400006323",
+    "OrderNumber": 4,
+    "OriginalDocumentCode": "4",
+    "OriginalOrderDate": "2018-07-13T16:48:49.723Z",
+    "ShippingAmount": 100.0,
+    "ShippingDiscount": null,
+    "ShippingDiscounts": null,
+    "ShippingMethodCode": null,
+    "ShippingMethodName": "Order Level Shipping Sample",
+    "TaxContext": {
+        "CustomerId": "fak1234",
+        "DestinationAddress": {
+            "Address1": "123 Main St",
+            "Address2": null,
+            "Address3": null,
+            "Address4": null,
+            "AddressType": "Residential",
+            "CityOrTown": "Allen",
+            "CountryCode": "US",
+            "IsValidated": null,
+            "PostalOrZipCode": "75002",
+            "StateOrProvince": "TX"
+        },
+        "OriginAddress": {
+            "Address1": "1835 Kramer Lane",
+            "Address2": "#100",
+            "Address3": null,
+            "Address4": null,
+            "AddressType": null,
+            "CityOrTown": "Austin",
+            "CountryCode": "US",
+            "IsValidated": false,
+            "PostalOrZipCode": "78758",
+            "StateOrProvince": "TX"
+        },
+        "TaxContextId": "4",
+        "TaxExemptId": null
+    },
+    "TaxRequestType": "Order"
+}

@@ -1,0 +1,195 @@
+{
+    "Attributes": [],
+    "CurrencyCode": "USD",
+    "Data": null,
+    "HandlingDiscount": null,
+    "HandlingDiscounts": null,
+    "HandlingFee": 0.0,
+    "LineItems": [
+        {
+            "Data": null,
+            "DestinationAddress": null,
+            "DiscountTotal": 0.0,
+            "DiscountedTotal": 129.0,
+            "FeeTotal": 0.0,
+            "HandlingAmount": null,
+            "Id": "ccbadf854d5345439454a96600d12002",
+            "IsTaxable": false,
+            "LineItemPrice": 129.0,
+            "OriginAddress": null,
+            "ProductCode": "acc-1002",
+            "ProductDiscount": null,
+            "ProductDiscounts": [],
+            "ProductName": "Cashmere Beret",
+            "ProductProperties": [
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Availability",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~availability",
+                    "IsHidden": null,
+                    "IsMultiValue": false,
+                    "Values": [
+                        {
+                            "StringValue": "Usually Ships in 24 to 48 Hours",
+                            "Value": "24-48hrs"
+                        }
+                    ]
+                }
+            ],
+            "Quantity": 1,
+            "Reason": null,
+            "ShippingAmount": 5.0,
+            "ShippingDiscount": null,
+            "ShippingDiscounts": [],
+            "VariantProductCode": null
+        },
+        {
+            "Data": null,
+            "DestinationAddress": null,
+            "DiscountTotal": 0.0,
+            "DiscountedTotal": 118.0,
+            "FeeTotal": 0.0,
+            "HandlingAmount": null,
+            "Id": "da42ade28720410c85efa96600d12002",
+            "IsTaxable": true,
+            "LineItemPrice": 118.0,
+            "OriginAddress": null,
+            "ProductCode": "acc-1003",
+            "ProductDiscount": null,
+            "ProductDiscounts": [],
+            "ProductName": "Leather Damask Clutch",
+            "ProductProperties": [
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Availability",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~availability",
+                    "IsHidden": null,
+                    "IsMultiValue": false,
+                    "Values": [
+                        {
+                            "StringValue": "Usually Ships in 24 to 48 Hours",
+                            "Value": "24-48hrs"
+                        }
+                    ]
+                }
+            ],
+            "Quantity": 2,
+            "Reason": null,
+            "ShippingAmount": 10.0,
+            "ShippingDiscount": null,
+            "ShippingDiscounts": [],
+            "VariantProductCode": null
+        }
+    ],
+    "OrderDate": "0001-01-01T00:00:00.000Z",
+    "OrderDiscount": null,
+    "OrderDiscounts": null,
+    "OrderId": "0caa8af422ff6837783fc636000063d8",
+    "OrderNumber": 769,
+    "OriginalDocumentCode": "769",
+    "OriginalOrderDate": "2018-09-25T12:42:31.878Z",
+    "ShippingAmount": 14.25,
+    "ShippingDiscount": {
+        "CouponCode": "5offship",
+        "CouponSetId": null,
+        "Discount": {
+            "Amount": 0.0,
+            "AmountType": null,
+            "Condition": null,
+            "DiscountId": 0,
+            "DoesNotApplyToMultiShipToOrders": null,
+            "DoesNotApplyToProductsWithSalePrice": false,
+            "ExpirationDate": null,
+            "FriendlyDescription": null,
+            "IncludedPriceLists": null,
+            "MaxDiscountValuePerRedemption": null,
+            "MaxRedemptions": null,
+            "MaximumDiscountValuePerOrder": null,
+            "MaximumRedemptionsPerOrder": null,
+            "MaximumUsesPerUser": null,
+            "Name": "5 percent off for Shipping",
+            "Redemptions": 0,
+            "RequiresAuthenticatedUser": false,
+            "Scope": null,
+            "StackingLayer": 0,
+            "Target": null,
+            "Type": null
+        },
+        "Impact": 0.75,
+        "ShippingMethodCode": "0798cb89da6541719eaca9220107e530"
+    },
+    "ShippingDiscounts": [
+        {
+            "CouponCode": "5offship",
+            "CouponSetId": null,
+            "Discount": {
+                "Amount": 0.0,
+                "AmountType": null,
+                "Condition": null,
+                "DiscountId": 0,
+                "DoesNotApplyToMultiShipToOrders": null,
+                "DoesNotApplyToProductsWithSalePrice": false,
+                "ExpirationDate": null,
+                "FriendlyDescription": null,
+                "IncludedPriceLists": null,
+                "MaxDiscountValuePerRedemption": null,
+                "MaxRedemptions": null,
+                "MaximumDiscountValuePerOrder": null,
+                "MaximumRedemptionsPerOrder": null,
+                "MaximumUsesPerUser": null,
+                "Name": "5 percent off for Shipping",
+                "Redemptions": 0,
+                "RequiresAuthenticatedUser": false,
+                "Scope": null,
+                "StackingLayer": 0,
+                "Target": null,
+                "Type": null
+            },
+            "Impact": 0.75,
+            "ShippingMethodCode": "0798cb89da6541719eaca9220107e530"
+        }
+    ],
+    "ShippingMethodCode": "0798cb89da6541719eaca9220107e530",
+    "ShippingMethodName": "Flat Rate Per Item",
+    "TaxContext": {
+        "CustomerId": "",
+        "DestinationAddress": {
+            "Address1": "1575 SPACE CENTER DR",
+            "Address2": "",
+            "Address3": null,
+            "Address4": null,
+            "AddressType": "Residential",
+            "CityOrTown": "COLORADO SPGS",
+            "CountryCode": "US",
+            "IsValidated": true,
+            "PostalOrZipCode": "80915-2441",
+            "StateOrProvince": "CO"
+        },
+        "OriginAddress": {
+            "Address1": "1 citizens bank way",
+            "Address2": "",
+            "Address3": "",
+            "Address4": "",
+            "AddressType": "Residential",
+            "CityOrTown": "Philadelphia",
+            "CountryCode": "US",
+            "IsValidated": false,
+            "PostalOrZipCode": "19148",
+            "StateOrProvince": "PA"
+        },
+        "TaxContextId": "769",
+        "TaxExemptId": null
+    },
+    "TaxRequestType": "Order"
+}
+

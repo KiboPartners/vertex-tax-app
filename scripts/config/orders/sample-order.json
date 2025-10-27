@@ -1,0 +1,91 @@
+{
+    "OrderDate": "0001-01-01T00:00:00Z",
+    "TaxContext": {
+      "TaxContextId": "1792",
+      "CustomerId": "1001",
+      "TaxExemptId": null,
+      "OriginAddress": {
+        "Address1": "3035 W WISCONSIN AVE",
+        "Address2": null,
+        "Address3": null,
+        "Address4": null,
+        "CityOrTown": "APPLETON",
+        "StateOrProvince": "WI",
+        "PostalOrZipCode": "54914-1708",
+        "CountryCode": "US",
+        "AddressType": "Commercial",
+        "IsValidated": false
+      },
+      "DestinationAddress": {
+        "Address1": "3035 W WISCONSIN AVE",
+        "Address2": null,
+        "Address3": null,
+        "Address4": null,
+        "CityOrTown": "APPLETON",
+        "StateOrProvince": "WI",
+        "PostalOrZipCode": "54914-1708",
+        "CountryCode": "US",
+        "AddressType": "Commercial",
+        "IsValidated": false
+      }
+    },
+    "LineItems": [
+      {
+        "Id": "16806b47ead04af584d1b28400c95476",
+        "ProductCode": "0000000000572",
+        "VariantProductCode": "005431481",
+        "ProductName": "Endure Sweat-Resistant Fly Spray",
+        "ProductProperties": [],
+        "Quantity": 4,
+        "LineItemPrice": 99.96,
+        "DiscountTotal": 0,
+        "DiscountedTotal": 99.96,
+        "ShippingAmount": 0,
+        "HandlingAmount": null,
+        "FeeTotal": 0,
+        "IsTaxable": true,
+        "Reason": null,
+        "Data": null,
+        "ProductDiscount": null,
+        "ShippingDiscount": null,
+        "ProductDiscounts": {},
+        "ShippingDiscounts": {},
+        "OriginAddress": null,
+        "DestinationAddress": null
+      }
+    ],
+    "ShippingAmount": 0,
+    "CurrencyCode": "USD",
+    "HandlingFee": 0,
+    "OriginalDocumentCode": "1792",
+    "OrderId": "18af913418d4f300016db707000186c1",
+    "OrderNumber": 1792,
+    "OriginalOrderDate": "2025-02-14T12:13:39.3383653Z",
+    "Data": null,
+    "Attributes": [
+      {
+        "FullyQualifiedName": "Tenant~ocn",
+        "AttributeDefinitionId": 76,
+        "Values": [
+          "12345"
+        ]
+      },
+      {
+        "FullyQualifiedName": "Tenant~ordersourcechannel",
+        "AttributeDefinitionId": 92,
+        "Values": [
+          "Web"
+        ]
+      }
+    ],
+    "ShippingDiscounts": null,
+    "ShippingDiscount": null,
+    "OrderDiscounts": null,
+    "OrderDiscount": null,
+    "HandlingDiscounts": null,
+    "HandlingDiscount": null,
+    "ShippingMethodCode": null,
+    "ShippingMethodName": null,
+    "TaxRequestType": "Order"
+  }
+  

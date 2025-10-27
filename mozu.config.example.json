@@ -1,0 +1,8 @@
+{
+  "developerAccountId": 111,
+  "developerAccount": {
+    "emailAddress": ""
+  },
+  "workingApplicationKey": "",
+  "baseUrl": "https://home.mozu.com" 
+}

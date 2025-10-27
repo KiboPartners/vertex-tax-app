@@ -1,0 +1,218 @@
+{
+    "Attributes": [],
+    "CurrencyCode": "USD",
+    "Data": null,
+    "HandlingDiscount": null,
+    "HandlingDiscounts": null,
+    "HandlingFee": 0.0,
+    "LineItems": [
+        {
+            "Data": null,
+            "DestinationAddress": null,
+            "DiscountTotal": 2.4,
+            "DiscountedTotal": 57.6,
+            "FeeTotal": 0.0,
+            "HandlingAmount": null,
+            "Id": "0b8ca9656c3d481eadada92d014b832a",
+            "IsTaxable": true,
+            "LineItemPrice": 57.6,
+            "OriginAddress": null,
+            "ProductCode": "1014",
+            "ProductDiscount": {
+                "AppliesToSalePrice": false,
+                "CouponCode": "97A5087F",
+                "CouponSetId": null,
+                "Discount": {
+                    "Amount": 4.0,
+                    "AmountType": "Percentage",
+                    "Condition": {
+                        "CouponCode": "97A5087F",
+                        "CustomerSegmentIds": [],
+                        "ExcludedCategoryIds": [],
+                        "ExcludedProductCodes": [],
+                        "ExpirationDate": "2019-03-11T19:56:00.000Z",
+                        "IncludedCategoryIds": [],
+                        "IncludedProductCodes": [],
+                        "MinimumCategorySubtotalBeforeDiscounts": null,
+                        "MinimumLifetimeValueAmount": null,
+                        "MinimumOrderAmount": null,
+                        "MinimumQuantityProductsRequiredInCategories": null,
+                        "MinimumQuantityRequiredProducts": null,
+                        "PaymentWorkflows": [],
+                        "RequiresCoupon": true,
+                        "StartDate": "2018-07-30T19:56:00.000Z"
+                    },
+                    "DiscountId": 6,
+                    "DoesNotApplyToMultiShipToOrders": null,
+                    "DoesNotApplyToProductsWithSalePrice": true,
+                    "ExpirationDate": "2019-03-11T19:56:00.000Z",
+                    "FriendlyDescription": null,
+                    "IncludedPriceLists": [],
+                    "MaxDiscountValuePerRedemption": null,
+                    "MaxRedemptions": null,
+                    "MaximumDiscountValuePerOrder": null,
+                    "MaximumRedemptionsPerOrder": null,
+                    "MaximumUsesPerUser": null,
+                    "Name": "line item percentage",
+                    "Redemptions": 0,
+                    "RequiresAuthenticatedUser": false,
+                    "Scope": "LineItem",
+                    "StackingLayer": 1,
+                    "Target": {
+                        "ExcludedCategoriesOperator": "Any",
+                        "ExcludedCategoryIds": [],
+                        "ExcludedProductCodes": [],
+                        "IncludeAllProducts": false,
+                        "IncludedCategoriesOperator": "Any",
+                        "IncludedCategoryIds": [],
+                        "IncludedProductCodes": [
+                            "1014"
+                        ],
+                        "ShippingMethods": [],
+                        "ShippingZones": [],
+                        "Type": "Product"
+                    },
+                    "Type": "TargetOnly"
+                },
+                "Impact": 2.4,
+                "ImpactPerUnit": 2.4,
+                "IsForced": false,
+                "NormalizedImpact": 2.4,
+                "Quantity": 1
+            },
+            "ProductDiscounts": [
+                {
+                    "AppliesToSalePrice": false,
+                    "CouponCode": "97A5087F",
+                    "CouponSetId": null,
+                    "Discount": {
+                        "Amount": 4.0,
+                        "AmountType": "Percentage",
+                        "Condition": {
+                            "CouponCode": "97A5087F",
+                            "CustomerSegmentIds": [],
+                            "ExcludedCategoryIds": [],
+                            "ExcludedProductCodes": [],
+                            "ExpirationDate": "2019-03-11T19:56:00.000Z",
+                            "IncludedCategoryIds": [],
+                            "IncludedProductCodes": [],
+                            "MinimumCategorySubtotalBeforeDiscounts": null,
+                            "MinimumLifetimeValueAmount": null,
+                            "MinimumOrderAmount": null,
+                            "MinimumQuantityProductsRequiredInCategories": null,
+                            "MinimumQuantityRequiredProducts": null,
+                            "PaymentWorkflows": [],
+                            "RequiresCoupon": true,
+                            "StartDate": "2018-07-30T19:56:00.000Z"
+                        },
+                        "DiscountId": 6,
+                        "DoesNotApplyToMultiShipToOrders": null,
+                        "DoesNotApplyToProductsWithSalePrice": true,
+                        "ExpirationDate": "2019-03-11T19:56:00.000Z",
+                        "FriendlyDescription": null,
+                        "IncludedPriceLists": [],
+                        "MaxDiscountValuePerRedemption": null,
+                        "MaxRedemptions": null,
+                        "MaximumDiscountValuePerOrder": null,
+                        "MaximumRedemptionsPerOrder": null,
+                        "MaximumUsesPerUser": null,
+                        "Name": "line item percentage",
+                        "Redemptions": 0,
+                        "RequiresAuthenticatedUser": false,
+                        "Scope": "LineItem",
+                        "StackingLayer": 1,
+                        "Target": {
+                            "ExcludedCategoriesOperator": "Any",
+                            "ExcludedCategoryIds": [],
+                            "ExcludedProductCodes": [],
+                            "IncludeAllProducts": false,
+                            "IncludedCategoriesOperator": "Any",
+                            "IncludedCategoryIds": [],
+                            "IncludedProductCodes": [
+                                "1014"
+                            ],
+                            "ShippingMethods": [],
+                            "ShippingZones": [],
+                            "Type": "Product"
+                        },
+                        "Type": "TargetOnly"
+                    },
+                    "Impact": 2.4,
+                    "ImpactPerUnit": 2.4,
+                    "IsForced": false,
+                    "NormalizedImpact": 2.4,
+                    "Quantity": 1
+                }
+            ],
+            "ProductName": "Meredith Angela Miranda Pump",
+            "ProductProperties": [
+                {
+                    "AttributeDetail": {
+                        "DataType": null,
+                        "Description": null,
+                        "InputType": null,
+                        "Name": "Availability",
+                        "ValueType": null
+                    },
+                    "AttributeFQN": "tenant~availability",
+                    "IsHidden": null,
+                    "IsMultiValue": false,
+                    "Values": [
+                        {
+                            "StringValue": "Usually Ships in 24 Hours",
+                            "Value": "24hrs"
+                        }
+                    ]
+                }
+            ],
+            "Quantity": 1,
+            "Reason": null,
+            "ShippingAmount": 0.0,
+            "ShippingDiscount": null,
+            "ShippingDiscounts": [],
+            "VariantProductCode": null
+        }
+    ],
+    "OrderDate": "0001-01-01T00:00:00.000Z",
+    "OrderDiscount": null,
+    "OrderDiscounts": null,
+    "OrderId": "0c5fcdd522ff683008cce8d700006323",
+    "OrderNumber": 56,
+    "OriginalDocumentCode": "56",
+    "OriginalOrderDate": "2018-07-30T20:07:07.376Z",
+    "ShippingAmount": 0.0,
+    "ShippingDiscount": null,
+    "ShippingDiscounts": null,
+    "ShippingMethodCode": null,
+    "ShippingMethodName": null,
+    "TaxContext": {
+        "CustomerId": "1003",
+        "DestinationAddress": {
+            "Address1": "15303 Dallas Pkwy",
+            "Address2": "#300",
+            "Address3": "",
+            "Address4": "",
+            "AddressType": "Residential",
+            "CityOrTown": "Addison",
+            "CountryCode": "US",
+            "IsValidated": false,
+            "PostalOrZipCode": "75001",
+            "StateOrProvince": "TX"
+        },
+        "OriginAddress": {
+            "Address1": "1835 Kramer Lane",
+            "Address2": "#100",
+            "Address3": null,
+            "Address4": null,
+            "AddressType": null,
+            "CityOrTown": "Austin",
+            "CountryCode": "US",
+            "IsValidated": false,
+            "PostalOrZipCode": "78758",
+            "StateOrProvince": "TX"
+        },
+        "TaxContextId": "56",
+        "TaxExemptId": null
+    },
+    "TaxRequestType": "Order"
+}

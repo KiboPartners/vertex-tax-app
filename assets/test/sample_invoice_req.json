@@ -1,0 +1,67 @@
+{
+    "InvoiceRequest": {
+        "Customer": {
+            "Destination": {
+                "City": "Addison",
+                "Country": "USA",
+                "MainDivision": "TX",
+                "PostalCode": "75001"
+            }
+        },
+        "LineItem": [
+            {
+                "ExtendedPrice": 50,
+                "Product": "1006",
+                "Quantity": 1,
+                "Seller": {
+                    "Company": "My Location",
+                    "PhysicalOrigin": {
+                        "City": "Austin",
+                        "Country": "USA",
+                        "MainDivision": "TX",
+                        "PostalCode": "78758"
+                    }
+                },
+                "UnitPrice": 50,
+                "attributes": {
+                    "lineItemNumber": 0
+                }
+            },
+            {
+                "ExtendedPrice": 130,
+                "Product": "1011",
+                "Quantity": 1,
+                "Seller": {
+                    "Company": "My Location",
+                    "PhysicalOrigin": {
+                        "City": "Austin",
+                        "Country": "USA",
+                        "MainDivision": "TX",
+                        "PostalCode": "78758"
+                    }
+                },
+                "UnitPrice": 130,
+                "attributes": {
+                    "lineItemNumber": 1
+                }
+            },
+            {
+                "ExtendedPrice": 15,
+                "Product": "cf36feeccb4540aaa569dca206f25c6d",
+                "attributes": {
+                    "lineItemNumber": 2
+                }
+            }
+        ],
+        "attributes": {
+            "documentDate": "2018-07-27Z",
+            "returnAssistedParametersIndicator": true,
+            "transactionType": "SALE"
+        }
+    },
+    "Login": {
+        "Password": "kibotest!",
+        "TrustedId": "kibo123",
+        "UserName": "kibotest"
+    }
+}
