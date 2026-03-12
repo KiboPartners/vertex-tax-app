@@ -10,6 +10,7 @@ const common = require('./common');
 const CUSTOMER_CODE_FULLY_QUALIFIED_NAME  = "Tenant~vertex-customer-code";
 const CUSTOMER_CLASS_FULLY_QUALIFIED_NAME = "Tenant~vertex-customer-class";
 const PRODUCT_CLASS_FULLY_QUALIFIED_NAME  = "Tenant~vertex-product-class";
+const PRODUCT_CLASS_FULLY_QUALIFIED_NAME2  = "tenant~tax-code";
 
 const ADDRESS_LINE_MAX = 100;
 
@@ -63,7 +64,8 @@ const orderFromKiboQuotation = (baseOrder) => {
         product: lineItem.ProductCode,
         extendedPrice: lineItem.LineItemPrice,
         quantity: lineItem.Quantity,
-        shipping: null
+        shipping: null,
+        properties: lineItem.ProductProperties
       };
 
       if(lineItem.ProductDiscount) {
@@ -198,7 +200,8 @@ const orderFromKiboInvoice = (baseOrder) => {
         shipping: null,
         pickup: false,
         locationCode: lineItem.fulfillmentLocationCode,
-        orderDiscounts: []
+        orderDiscounts: [],
+        properties: lineItem.product.properties
       };
 
       if(lineItem.fulfillmentMethod === "Pickup") {
@@ -368,29 +371,39 @@ const getOrder = (orderId, context, args) => {
   });
 };
 
+const getAsPromise = obj => new Promise((resolve, reject) => resolve(obj));
+
 const getLineItemProduct = (orderId, lineItemId, context, args) => {
   return new Promise((resolve, reject) => {
+    
+    var lineItemP;
 
-    var lineItemP = getOrder(orderId, context, args).then(order => {
-      const lineItem = order.items.find(item => item.id === lineItemId);
-      return lineItem;
-    }).catch(error => {
-      console.error(error);
-      reject(error);
-    });
+    // if lineItem already has properties no need to fetch order
+    if (args.lineItem && args.lineItem.properties) {
+      lineItemP = getAsPromise(args.lineItem);
+    } else {
+      lineItemP = getOrder(orderId, context, args).then(order => {
+        const lineItem = order.items ? order.items.find(item => item.id === lineItemId) : undefined;
+        return lineItem;
+      }).catch(error => {
+        console.error(`[getLineItemProduct] Error fetching order or lineItem:`, error);
+        reject(error);
+      });
+    }
 
-    lineItemP.then(lineItem => {
+    return lineItemP.then(lineItem => {
       if(!lineItem) {
-        console.log("No product found for given product code");
         resolve({});
       } else {
         var productObj = {};
 
         // store all attributes
         productObj.attributes = lineItem.product.properties;
-        _.each(lineItem.product.properties, function(property) {
-          if(property.attributeFQN === PRODUCT_CLASS_FULLY_QUALIFIED_NAME) {
-            productObj.class = property.values[0].value;
+        _.each(lineItem.properties, function(property) {
+          if(property.AttributeFQN && property.AttributeFQN.toLowerCase() === PRODUCT_CLASS_FULLY_QUALIFIED_NAME.toLowerCase()) {
+            productObj.class = property.Values[0].Value;
+          } else if(property.AttributeFQN && property.AttributeFQN.toLowerCase() === PRODUCT_CLASS_FULLY_QUALIFIED_NAME2.toLowerCase()) {
+            productObj.class = property.Values[0].Value;
           }
         });
 

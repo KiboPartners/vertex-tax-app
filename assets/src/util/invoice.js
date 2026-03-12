@@ -40,7 +40,7 @@ const generateLineItems = (order, context, args) => {
   var itemsP = new Promise((resolve, reject) => {
     var productItemsP = _.map(order.lineItems, (lineItem) => {
       var originAddressP = getOriginAddress(lineItem.locationCode, context, args);
-      var productP = orderBuilder.getLineItemProduct(order.rawOrder.orderId, lineItem.id, context, args);
+      var productP = orderBuilder.getLineItemProduct(order.rawOrder.orderId, lineItem.id, context, Object.assign({}, args, { lineItem: lineItem }));
       return Promise.all([originAddressP, productP]).then(values => {
         var originAddress = values[0];
         var product = values[1];
@@ -246,7 +246,7 @@ const getOriginAddress = (locationCode, context, args) => {
 };
 
 const createInvoiceFromVertex = function(order, context, args) {
-
+console.error("createInvoiceFromVertex >> ");
   return new Promise((resolve, reject) => {
 
     const configP = configManager.getVertexConfig(context, context.options).then(config => {

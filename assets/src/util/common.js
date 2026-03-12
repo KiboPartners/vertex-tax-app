@@ -453,11 +453,13 @@ const changeCaseOfObjectKeys = function(obj, caseFunction) {
     if (Array.isArray(obj[key]) && obj[key].length > 0) {
       newObj[newKey] = [];
       for (let i = 0; i < obj[key].length; i++) {
-        if (typeof obj[key][i] === 'object') {
-          newObj[newKey].push(changeCaseOfObjectKeys(obj[key][i], caseFunction));
-        } else {
-          newObj[newKey].push(obj[key][i]);
-        }
+        if (obj[key][i] !== null) {
+          if (typeof obj[key][i] === 'object') {
+            newObj[newKey].push(changeCaseOfObjectKeys(obj[key][i], caseFunction));
+          } else {
+            newObj[newKey].push(obj[key][i]);
+          }
+       }
       }
     } else if (obj[key] != null && typeof obj[key] === 'object') {
       newObj[newKey] = changeCaseOfObjectKeys(obj[key], caseFunction);

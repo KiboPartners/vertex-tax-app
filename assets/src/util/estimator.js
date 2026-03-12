@@ -13,7 +13,9 @@ const generateShippingItem = (item, index) => {
     attributes: {
       lineItemNumber: index
     },
-    Product: item.shippingMethodCode,
+    Product: {
+      $value: item.shippingMethodCode,
+    },
     ExtendedPrice: item.shippingAmount
   };
 
@@ -26,9 +28,9 @@ const generateShippingItem = (item, index) => {
 
 
 const generateLineItems = (order, context, args) => {
-  var itemsP =  new Promise((resolve, reject) => {
+  var itemsP = new Promise((resolve, reject) => {
     var productItemsP = _.map(order.lineItems, (lineItem) => {
-      return orderBuilder.getLineItemProduct(order.rawOrder.orderId, lineItem.id, context, args).then( product => {
+      return orderBuilder.getLineItemProduct(order.rawOrder.orderId, lineItem.id, context, Object.assign({}, args, { lineItem: lineItem })).then(product => {
         var item = {
           attributes: {
             lineItemNumber: lineItem.lineItemNumber
@@ -80,7 +82,7 @@ const generateLineItems = (order, context, args) => {
   });
 
   return itemsP.then(productItems => {
-    productItems.push(generateShippingItem(order.shipping,  productItems.length));
+    productItems.push(generateShippingItem(order.shipping, productItems.length));
     return productItems;
   }).catch(error => {
     console.error(error);
@@ -138,7 +140,7 @@ const generateQuotationRequest = (order, context, args) => {
 
       if (customer.customerClass) {
         quotation.QuotationRequest.Customer.CustomerCode.attributes = {
-          "classCode":  customer.customerClass
+          "classCode": customer.customerClass
         };
       }
     }
@@ -181,17 +183,19 @@ const generateQuotationRequest = (order, context, args) => {
   });
 };
 
-const buildOrderTax = function(lineItems, quote, order){
+const buildOrderTax = function (lineItems, quote, order) {
   var orderTax = {
     handlingFeeTax: 0.0,
     shippingTax: 0.0,
     itemTaxContexts: lineItems,
-    orderTax: Number(quote.TotalTax),
+    orderTax: Number(lineItems.reduce((sum, item) => sum + Number(item.tax), 0)),
   };
 
   if (quote.LineItem.length > order.LineItems.length) {
     orderTax.shippingTax = Number(quote.LineItem[Number(quote.LineItem.length - 1)].TotalTax);
-    orderTax.orderTax = Number(quote.TotalTax) - orderTax.shippingTax;
+
+    orderTax.orderTax = Number(lineItems.reduce((sum, item) => sum + Number(item.tax), 0));
+
   }
   orderTax.shippingTax = orderTax.shippingTax.toFixed(2);
   orderTax.orderTax = orderTax.orderTax.toFixed(2);
