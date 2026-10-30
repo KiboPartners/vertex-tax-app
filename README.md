@@ -5,6 +5,11 @@ This project is a Node.js application that estimates tax for orders using the Ve
 
 This project has been forked from the main Vertex integration.
 
+## Documentation
+
+- [Functional Guide](docs/FUNCTIONAL-GUIDE.md) — supported features, configuration reference, support matrix, troubleshooting
+- [Diagrams](docs/diagrams/) — JPEG images: system context, tax estimate / invoice / return / address validation sequences, WSDL cache, installation
+
 ## Example mozu.config.json
 
 ```json
